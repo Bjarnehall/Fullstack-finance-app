@@ -37,3 +37,13 @@ Cluster
 * node-api
 Collection
 * user-profiles
+
+### First stage done
+
+Created an API with full crud functionality, mongoDB hosted on Atlas simple implementaiton tested with postman. In next stage implement hashing method for passwords and make sure duplicates can't be created.
+
+Dependencies so far
+
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.18.2"
