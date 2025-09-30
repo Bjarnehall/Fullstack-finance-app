@@ -1,13 +1,15 @@
 const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
+
+// Setting of variables and imports
 const MONGOKEY = process.env.MONGOKEY;
-
-
 const userRoute = require('./routes/users.route.js');
-
 const app = express();
 const port = 3005;
+
+// Middleware
+app.use(express.json());
 
 // Routes
 app.use('/api/users', userRoute);
