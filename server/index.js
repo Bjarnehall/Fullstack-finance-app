@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
+const cors = require('cors');
 
 // Setting of variables and imports
 const MONGOKEY = process.env.MONGOKEY;
@@ -10,6 +11,13 @@ const port = 3005;
 
 // Middleware
 app.use(express.json());
+
+app.use(
+    cors({
+        origin: 'http://localhost:5173',
+        credentials: true,
+    })
+);
 
 // Routes
 app.use('/api/users', userRoute);
