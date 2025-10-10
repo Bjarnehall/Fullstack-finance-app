@@ -10,10 +10,6 @@ const UserSchema = mongoose.Schema(
             type: String,
             required: [true, "Please enter password"],
         },
-        refreshToken: {
-            type: String,
-            default: "",
-        },
     },
 );
 

@@ -1,18 +1,47 @@
 import { Link, useRouteError } from 'react-router-dom';
 import styled from 'styled-components';
 import FormRow from '../models/FormRow';
+import { useState } from "react";
+const api_url="http://localhost:3005"
 
 function Register() {
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+
+    try {
+      const response = await fetch(`${api_url}/api/users/register`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email, password })
+      });
+
+      if (!response.ok) {
+          const errorText = await response.text();
+          alert("Login failed: " + errorText);
+          return;
+      }
+
+      alert("Created new user:");
+    } catch (error) {
+        console.error(error);
+        alert("An error ocurred creating user");
+    }
+  }
+
   return (
     <Wrapper>
         <nav>
             <Link to='/' className='btn '>Home</Link>
         </nav>
-        <form>
+        <form onSubmit={handleSubmit}>
           <h4>register</h4>
-          <FormRow type="email" name="email" />
-          <FormRow type="password" name="password" />
-          <button type="button">submit</button>
+          <FormRow type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+          <FormRow type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
+          <button type="submit">submit</button>
           <p>
             I have an account
             <Link to='/login'>Login</Link>

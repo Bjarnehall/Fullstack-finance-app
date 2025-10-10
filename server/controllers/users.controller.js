@@ -1,6 +1,6 @@
 const User = require('../models/user.model.js');
 const { hash, compare } = require('bcryptjs');
-const { createAccessToken, createRefreshToken, sendAccessToken, sendRefreshToken, } = require('../models/token.model.js');
+const { createAccessToken, sendAccessToken } = require('../models/token.model.js');
 
 
 const getUsers = async (req, res) => {
@@ -91,13 +91,14 @@ const loginUser = async (req, res) => {
         }
         // Create accesstoken and refreshtoken
         const accesstoken = createAccessToken(findUser._id);
-        const refreshtoken = createRefreshToken(findUser._id);
+        //const refreshtoken = createRefreshToken(findUser._id);
         // Put the refreshtoken in the database
-        findUser.refreshToken = refreshtoken;
+        //findUser.refreshToken = refreshtoken;
         await findUser.save();
-        console.log(refreshtoken);
+        cpnsole.log(accesstoken);
+        //console.log(refreshtoken);
         // Send Refresh token as coockie and token as return
-        sendRefreshToken(res, refreshtoken);
+        //sendRefreshToken(res, refreshtoken);
         sendAccessToken(res, req, accesstoken);
 
     } catch(err) {

@@ -1,0 +1,2 @@
+MONGOKEY="mongodb+srv://jonasbjarnehall_db_user:syrgis-vEqsu5-juhbaj@node-api.1css3hj.mongodb.net/?retryWrites=true&w=majority&appName=node-api"
+ACCESS_TOKEN_SECRET="hemlig"
