@@ -1,4 +1,4 @@
-import { Link, useRouteError } from 'react-router-dom';
+import { Link, useNavigate, useRouteError } from 'react-router-dom';
 import styled from 'styled-components';
 import FormRow from '../models/FormRow';
 import { useState } from "react";
@@ -8,6 +8,7 @@ function Register() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -26,6 +27,8 @@ function Register() {
       }
 
       alert("Created new user:");
+      navigate("/login");
+
     } catch (error) {
         console.error(error);
         alert("An error ocurred creating user");
