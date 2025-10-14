@@ -1,6 +1,10 @@
 import { Link, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import { useEffect, useState } from 'react';
+import {
+  Menu,
+} from '../views/index.js';
+import TickerInformaiton from '../models/TickerInformation.jsx';
 
 
 
@@ -17,26 +21,16 @@ function Landing() {
     }
   }, []);
 
-
-  function handleLogout() {
-    localStorage.removeItem("token");
-        navigate("/login");
-    }
-
   return (
     <Wrapper>
-        <nav>
-            <button onClick={handleLogout} className="btn">logout</button>
-        </nav>
+        <Menu />
+        <TickerInformaiton symbol="AAPL" />
     </Wrapper>
   )
 }
 
 const Wrapper = styled.section`
-    nav {
-        background-color: #acacac;
-        padding: 0.5rem;
-    }
+
 `;
 
 export default Landing

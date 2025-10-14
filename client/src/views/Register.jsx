@@ -46,7 +46,7 @@ function Register() {
           <FormRow type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
           <button type="submit">submit</button>
           <p>
-            I have an account
+            <small>already registered</small>
             <Link to='/login'><br/>Login</Link>
             <div id="message"></div>
           </p>

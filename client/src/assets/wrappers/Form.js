@@ -5,12 +5,12 @@ const Wrapper = styled.section`
         
     form {
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color: rgb(155, 189, 223);
+        color: var(--color-font-main);
         width: 90vw;
         max-width: 400px;
-        background-color: #333333;
+        background-color: var(--color-main-light);
         border-radius: 5px;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.329), 0 2px 4px -1px rgba(0, 0, 0, 0.37);
+        box-shadow: 0 4px 6px -1px var(--color-shadow);
         padding: 2rem 2.5rem;
         margin: auto;
         margin-top: 20vh;
@@ -18,38 +18,46 @@ const Wrapper = styled.section`
     .form-label {
         display: block;
         margin: 0.375rem;
+        text-transform: capitalize;
     }
     .form-input {
-        color: rgb(155, 189, 223);
+        color: var(--color-font-main);
         width: 100%;
         padding: 0.375rem 0.75rem;
         border-radius: 5px;
-        border: 1px solid rgb(155, 189, 223);
-        background-color:rgb(36, 36, 36);
+        border: 2px solid var(--color-light-border);
+        background-color: var(--color-main);
     }
     button {
-        color:rgb(155, 189, 223);
+        text-transform: capitalize;
+        font-weight: bold;
+        color: var(--color-font-highlight);
         width: 100%;
         padding: 0.375rem 0.75rem;
         margin-top: 1rem;
         margin-bottom: 0.75rem;
-        background-color:rgb(36, 36, 36);
+        background-color: var(--color-main);
         border: none;
+    }
+    button:hover {
+        color: yellow;
     }
     h4 {
         margin-bottom: 0.75rem;
     }
     #message {
-        background-color:rgba(117, 64, 64, 0.73);
+        background-color: var(--color-message-warning);
         padding: 0.375rem 0.75rem;
         border-radius: 5px;
         margin-top: 1rem;
-        color: rgb(155, 189, 223);
+        color: var(--color-font-highlight);
         display: none;
     }
     a {
-        color: #fff;
+        text-transform: capitalize;
+        color: var(--color-font-highlight);
     }
+
 `;
 
 export default Wrapper;

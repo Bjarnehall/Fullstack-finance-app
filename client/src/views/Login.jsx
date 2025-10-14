@@ -67,7 +67,7 @@ function Login() {
           <FormRow type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
           <button type="submit">login</button>
           <p>
-            create an account
+            <small>create an account</small>
             <Link to='/register'><br/>register</Link>
             <div id="message"></div>
           </p>
