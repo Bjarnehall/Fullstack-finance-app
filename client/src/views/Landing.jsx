@@ -1,12 +1,32 @@
-import { Link, useRouteError } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
+import { useEffect, useState } from 'react';
+
 
 
 function Landing() {
+  const [token, setToken] = useState(null);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem("token");
+    setToken(storedToken);
+    
+    if (!storedToken) {
+      navigate("/login");
+    }
+  }, []);
+
+
+  function handleLogout() {
+    localStorage.removeItem("token");
+        navigate("/login");
+    }
+
   return (
     <Wrapper>
         <nav>
-            <Link to='/login' className='btn '>Login</Link>
+            <button onClick={handleLogout} className="btn">logout</button>
         </nav>
     </Wrapper>
   )

@@ -1,5 +1,5 @@
-import { Link, useNavigate, useRouteError } from 'react-router-dom';
-import styled from 'styled-components';
+import { Link, useNavigate } from 'react-router-dom';
+import Wrapper from '../assets/wrappers/Form';
 import FormRow from '../models/FormRow';
 import { useState } from "react";
 const api_url="http://localhost:3005"
@@ -21,11 +21,13 @@ function Register() {
       });
       const message = document.getElementById('message');
       if (response.status === 400) {
-          message.innerHTML = `<h5>Register failed</h5><p><small>This email is already registered try to login</small></p>`
+          message.innerHTML = `<h5>Register failed</h5><p><small>This email is already registered try to login instead</small></p>`
+          message.style.display = 'block';
           return;
       }
       if (response.status === 500) {
           message.innerHTML = `<h5>Register failed</h5><p><small>Server error try again later</small></p>`
+          message.style.display = 'block';
           return;
       }
 
@@ -38,9 +40,6 @@ function Register() {
 
   return (
     <Wrapper>
-        <nav>
-            <Link to='/' className='btn '>Home</Link>
-        </nav>
         <form onSubmit={handleSubmit}>
           <h4>register</h4>
           <FormRow type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
@@ -48,50 +47,12 @@ function Register() {
           <button type="submit">submit</button>
           <p>
             I have an account
-            <Link to='/login'>Login</Link>
+            <Link to='/login'><br/>Login</Link>
             <div id="message"></div>
           </p>
         </form>
     </Wrapper>
   )
 }
-
-const Wrapper = styled.section`
-  min-height: 100vh;
-
-    nav {
-      background-color: #acacac;
-      padding: 0.5rem;
-    }
-    form {
-      width: 90vw;
-      max-width: 400px;
-      background-color: #acacac;
-      border-radius: 5px;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.329), 0 2px 4px -1px rgba(0, 0, 0, 0.37);
-      padding: 2rem 2.5rem;
-      margin: auto;
-      margin-top: 20vh;
-    }
-    .form-label {
-      display: block;
-      margin: 0.375rem;
-    }
-    .form-input {
-      width: 100%;
-      padding: 0.375rem 0.75rem;
-      border-radius: 5px;
-      border: 1px solid grey;
-    }
-    button {
-      width: 100%;
-      padding: 0.375rem 0.75rem;
-      margin-top: 1rem;
-      margin-bottom: 0.75rem;
-    }
-    h4 {
-      margin-bottom: 0.75rem;
-    }
-`;
 
 export default Register

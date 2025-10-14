@@ -87,17 +87,10 @@ const loginUser = async (req, res) => {
         if (!valid) {
             return res.status(401).json();
         }
-        // Create accesstoken and refreshtoken
+
         const accesstoken = createAccessToken(findUser._id);
-        //const refreshtoken = createRefreshToken(findUser._id);
-        // Put the refreshtoken in the database
-        //findUser.refreshToken = refreshtoken;
         await findUser.save();
-        cpnsole.log(accesstoken);
-        //console.log(refreshtoken);
-        // Send Refresh token as coockie and token as return
-        //sendRefreshToken(res, refreshtoken);
-        sendAccessToken(res, req, accesstoken);
+        sendAccessToken(res.status(200), req, accesstoken);
 
     } catch(err) {
         res.send({ error: `${err.message}` });
