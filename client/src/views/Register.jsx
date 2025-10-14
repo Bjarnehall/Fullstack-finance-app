@@ -19,19 +19,20 @@ function Register() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email, password })
       });
-
-      if (!response.ok) {
-          const errorText = await response.text();
-          alert("Login failed: " + errorText);
+      const message = document.getElementById('message');
+      if (response.status === 400) {
+          message.innerHTML = `<h5>Register failed</h5><p><small>This email is already registered try to login</small></p>`
+          return;
+      }
+      if (response.status === 500) {
+          message.innerHTML = `<h5>Register failed</h5><p><small>Server error try again later</small></p>`
           return;
       }
 
-      alert("Created new user:");
       navigate("/login");
 
     } catch (error) {
         console.error(error);
-        alert("An error ocurred creating user");
     }
   }
 
@@ -48,6 +49,7 @@ function Register() {
           <p>
             I have an account
             <Link to='/login'>Login</Link>
+            <div id="message"></div>
           </p>
         </form>
     </Wrapper>

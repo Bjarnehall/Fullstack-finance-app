@@ -39,8 +39,6 @@ const createUser = async (req, res) => {
         await newUser.save();
         res.status(200).json({ message: "User registered" });
 
-/*         const user = await User.create(req.body);
-        res.status(200).json(user); */
     } catch (error) {
         res.status(500).json({message: error.message});
     }
@@ -83,11 +81,11 @@ const loginUser = async (req, res) => {
     try{
         const findUser = await User.findOne ({ email });
         if (!findUser) {
-            return res.status(400).json({ message: "User could not been found with that emai" });
+            return res.status(404).json();
         }
         const valid = await compare(password, findUser.password);
         if (!valid) {
-            return res.status(400).json({ message: "Password is incorrect" });
+            return res.status(401).json();
         }
         // Create accesstoken and refreshtoken
         const accesstoken = createAccessToken(findUser._id);

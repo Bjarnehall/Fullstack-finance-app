@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const cors = require('cors');
 
-
 // Setting of variables and imports
 const MONGOKEY = process.env.MONGOKEY;
 console.log("Mongo key:", MONGOKEY);
@@ -17,7 +16,7 @@ app.use(express.json());
 
 app.use(
     cors({
-        origin: 'http://localhost:5173',
+        origin: 'http://localhost:5174',
         credentials: true,
     })
 );

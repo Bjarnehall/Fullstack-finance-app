@@ -19,9 +19,14 @@ function Login() {
                 body: JSON.stringify({ email, password })
             });
 
-            if (!response.ok) {
-                const errorText = await response.text();
-                alert("Login failed: " + errorText);
+            const message = document.getElementById('message');
+
+            if (response.status === 404) {
+                message.innerHTML = `<h5>Login failed</h5><p><small>User could not be found with that email</small></p>`
+                return;
+            }
+            if (response.status === 401) {
+                message.innerHTML = `<h5>Login failed</h5><p><small>Password is incorrect</small></p>`
                 return;
             }
 
@@ -53,6 +58,7 @@ function Login() {
           <p>
             Create an account
             <Link to='/register'>Register</Link>
+            <div id="message"></div>
           </p>
         </form>
     </Wrapper>
@@ -94,6 +100,9 @@ const Wrapper = styled.section`
     }
     h4 {
       margin-bottom: 0.75rem;
+    }
+    .alert {
+      color: blue;
     }
 `;
 export default Login;
