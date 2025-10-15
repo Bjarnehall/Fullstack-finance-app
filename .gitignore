@@ -1,2 +1,2 @@
-./server/.env
-./server/keys.js
+.env
+keys.js
