@@ -1,8 +1,11 @@
 const User = require('../models/user.model.js');
 const { hash, compare } = require('bcryptjs');
-const { createAccessToken, sendAccessToken } = require('../models/token.model.js');
-
-
+const { createAccessToken, sendAccessToken, userFromToken } = require('../models/token.model.js');
+const { ACCESS_TOKEN_SECRET } = require('../../keys.js');
+/*
+Searches for users in database collection User
+return result as json and status code
+*/
 const getUsers = async (req, res) => {
     try {
         const user = await User.find({});
@@ -11,7 +14,10 @@ const getUsers = async (req, res) => {
         res.status(500).json({message: error.message});
     }
 };
-
+/*
+Searches for single user in database collection User
+takes user id from url and return result as json and status code
+*/
 const getUser = async (req, res) => {
     try {
         const { id } = req.params;
@@ -98,11 +104,27 @@ const loginUser = async (req, res) => {
 
 }
 
+const userValid = async (req, res) => {
+    try {
+        const userId = userFromToken(req);
+        if (!userId) {
+            return res.status(400).json({ valid: false, message: "You need to log in" });
+        }
+
+        return res.status(200).json({ valid: true, userId });
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ valid: false });
+    }
+};
+
+
 module.exports = {
     getUsers,
     getUser,
     createUser,
     updateUser,
     deleteUser,
-    loginUser
+    loginUser,
+    userValid
 };

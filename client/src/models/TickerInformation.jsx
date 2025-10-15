@@ -4,14 +4,14 @@ import styled from 'styled-components';
 function TickerInformaiton({ symbol }) {
     const [ticker, setTicker] = useState([]);
 
+    /*
+    fetch ticker information
+    */
     async function fetchTicker() {
         try {
             const response = await fetch (`http://localhost:3005/api/ticker/get/${symbol}`);
-
             const data = await response.json();
-
             setTicker(data);
-
         } catch (error) {
             console.error("Error fetching ticker:", error);
             setTicker([]);

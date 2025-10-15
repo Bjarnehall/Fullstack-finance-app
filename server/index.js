@@ -1,13 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-const { MONGOKEY, ACCESS_TOKEN_SECRET } = require('./keys.js');
+const { MONGOKEY } = require('../keys.js');
 
 const cors = require('cors');
 
 // Setting of variables and imports
 //const MONGOKEY = process.env.MONGOKEY;
-console.log("Mongo key:", MONGOKEY);
+//console.log("Mongo key:", MONGOKEY);
 
 const userRoute = require('./routes/users.route.js');
 const tickerRoute = require('./routes/ticker.route.js');
