@@ -10,6 +10,9 @@ const TickerSchema = mongoose.Schema(
                 message: 'Information should only contain one asset',
             },
         },
+        daily: {
+            type: [Array],
+        }
     },
 );
 

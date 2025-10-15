@@ -1,10 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
-require('dotenv').config();
+
+const { MONGOKEY, ACCESS_TOKEN_SECRET } = require('./keys.js');
+
 const cors = require('cors');
 
 // Setting of variables and imports
-const MONGOKEY = process.env.MONGOKEY;
+//const MONGOKEY = process.env.MONGOKEY;
 console.log("Mongo key:", MONGOKEY);
 
 const userRoute = require('./routes/users.route.js');
@@ -17,7 +19,7 @@ app.use(express.json());
 
 app.use(
     cors({
-        origin: 'http://localhost:5174',
+        origin: 'http://localhost:5173',
         credentials: true,
     })
 );

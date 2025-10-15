@@ -13,7 +13,7 @@ const Wrapper = styled.section`
         box-shadow: 0 4px 6px -1px var(--color-shadow);
         padding: 2rem 2.5rem;
         margin: auto;
-        margin-top: 20vh;
+        margin-top: 10vh;
     }
     .form-label {
         display: block;

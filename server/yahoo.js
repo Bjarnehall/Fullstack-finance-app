@@ -15,4 +15,21 @@ async function stockInfo (symbol) {
     return tickerInfo;
 }
 
+async function pricesThirtyDaily(symbol) {
+    const end = new Date();
+    const start = new Date();
+    start.setDate(end.getDate() - 30);
+
+    const queryOptions = {
+      period1: start,
+      period2: end,
+      interval: "1d"
+  };
+
+  const { quotes } = await yahooFinance.chart(symbol, queryOptions);
+
+  return quotes;
+}
 stockInfo('AAPL').then(tickerInfo => console.log(tickerInfo));
+
+pricesThirtyDaily('AAPL').then(quotes => console.log(quotes));

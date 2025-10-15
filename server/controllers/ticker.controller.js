@@ -15,6 +15,22 @@ async function fetchInformation (symbol) {
     };
 }
 
+async function fetchDailyPrices (symbol) {
+    const end = new Date();
+    const start = new Date();
+    start.setDate(end.getDate() - 30);
+
+    const queryOptions = {
+        period1: start,
+        period2: end,
+        interval: "1d"
+    };
+
+    const { quotes } = await yahooFinance.chart(symbol, queryOptions);
+
+  return quotes;
+}
+
 const getTicker = async (req, res) => {
     try {
         const { symbol } = req.params;
