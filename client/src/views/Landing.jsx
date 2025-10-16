@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { Menu } from '../views/index.js';
 import TickerInformaiton from '../models/TickerInformation.jsx';
+import styled from 'styled-components';
 /*
 Post client stored jwt token and check if valid
 Returns valid = true/false
@@ -53,5 +54,9 @@ function Landing() {
     </Wrapper>
   )
 }
+
+const Wrapper = styled.section`
+
+`;
 
 export default Landing

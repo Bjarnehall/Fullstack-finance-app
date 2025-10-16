@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 function TickerInformaiton({ symbol }) {
     const [ticker, setTicker] = useState([]);
+    const [daily, setDaily] = useState([]);
 
     /*
     fetch ticker information
@@ -18,9 +19,22 @@ function TickerInformaiton({ symbol }) {
         }
     }
 
+    async function fetchDaily() {
+        try {
+            const response = await fetch(`http://localhost:3005/api/ticker/daily/${symbol}`);
+            const data = await response.json();
+            console.log("daily prices:", data);
+            setDaily(data);
+        } catch (error) {
+            console.error("Error fetching prices", error);
+            setDaily([]);
+        }
+    }
+
     useEffect(() => {
         if (symbol) {
             fetchTicker();
+            fetchDaily ();
         }
     }, [symbol]);
 

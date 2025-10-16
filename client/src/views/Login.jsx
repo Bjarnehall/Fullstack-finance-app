@@ -37,9 +37,11 @@ function Login() {
                 localStorage.setItem("token", token.accesstoken);
                 if (token !== null) {
                   message.innerHTML = `<h5>Login Sucsess</h5><p><small>Welcome</small></p>`
+                  message.style.display = 'block';
+                  message.style.backgroundColor = '#315c0b';
                   setTimeout(() => {
                     navigate("/");
-                  }, 1000);
+                  }, 1200);
                   return;
               }
             }
@@ -68,9 +70,10 @@ function Login() {
           <button type="submit">login</button>
           <p>
             <small>create an account</small>
+          </p>
             <Link to='/register'><br/>register</Link>
             <div id="message"></div>
-          </p>
+          
         </form>
     </Wrapper>
   )
