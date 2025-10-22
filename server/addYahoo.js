@@ -30,6 +30,6 @@ async function pricesThirtyDaily(symbol) {
 
   return quotes;
 }
-stockInfo('AAPL').then(tickerInfo => console.log(tickerInfo));
+stockInfo('GOOG').then(tickerInfo => console.log(tickerInfo));
 
-pricesThirtyDaily('AAPL').then(quotes => console.log(quotes));
+pricesThirtyDaily('GOOG').then(quotes => console.log(quotes));

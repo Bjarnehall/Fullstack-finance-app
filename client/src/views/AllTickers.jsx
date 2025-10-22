@@ -10,45 +10,10 @@ function AllTickers() {
         <Menu />
         <div className="information-dashboard">
             <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="AAPL" />
+            <TickerInformation symbol="GOOG" />
+            <TickerInformation symbol="OKTA" />
+            <TickerInformation symbol="TSLA" />
+            <TickerInformation symbol="TSLA" />
         </div>
     </Wrapper>
   );

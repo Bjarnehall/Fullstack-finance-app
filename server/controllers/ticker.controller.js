@@ -93,13 +93,15 @@ const getDailyPrices = async (req, res) => {
             return res.status(200).json(newDaily);
         }
 
-        const latestDate = new Date(dailyPrices[dailyPrices.length - 1][0]);
+        const latestDate = new Date(dailyPrices[dailyPrices.length -1][0]);
         const today = new Date();
         const isOutDated = latestDate.toDateString() !== today.toDateString();
 
         if (isOutDated) {
           console.log("Data is outdated");
           const newDaily = await fetchDailyPrices(symbol);
+
+
 
           const cutoffDate = new Date();
           cutoffDate.setDate(today.getDate() - 30);
