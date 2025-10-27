@@ -1,5 +1,5 @@
 const { sign, verify } = require('jsonwebtoken');
-const cookieParser = require('cookie-parser');
+/* const cookieParser = require('cookie-parser'); */
 const { ACCESS_TOKEN_SECRET } = require('../../keys.js');
 /*
 Creates a jwt token signed by user id

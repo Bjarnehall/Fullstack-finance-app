@@ -1,4 +1,4 @@
-const yahooFinance = require("yahoo-finance2").default;
+/* const yahooFinance = require("yahoo-finance2").default;
 
 async function stockInfo (symbol) {
     const { quotes } = await yahooFinance.search(symbol);
@@ -32,4 +32,4 @@ async function pricesThirtyDaily(symbol) {
 }
 stockInfo('GOOG').then(tickerInfo => console.log(tickerInfo));
 
-pricesThirtyDaily('GOOG').then(quotes => console.log(quotes));
+pricesThirtyDaily('GOOG').then(quotes => console.log(quotes)); */

@@ -1,8 +1,8 @@
+const Ticker = require('../models/tickerSchema.model.js');
 const { TWELVE } = require("../../keys.js");
+const { startDateDays, getTwelveData} = require("../models/priceModel.js");
 
-const { startDateDays, getTwelveData} = require("../models/dataHelpers.js");
-
-let startDate = startDateDays(60);
+let startDate = startDateDays(10);
 let timeframe = "45min";
 let ticker = "AAPL";
 let key = TWELVE;

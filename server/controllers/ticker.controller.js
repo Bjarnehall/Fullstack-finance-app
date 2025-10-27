@@ -1,5 +1,6 @@
-const Ticker = require('../models/ticker.model.js');
+const Ticker = require('../models/tickerSchema.model.js');
 const yahooFinance = require("yahoo-finance2").default;
+
 /*
  * Fetches data from yahooFinance and return
  * meta data about ticker
