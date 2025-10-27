@@ -19,12 +19,12 @@ function Cat ({ viewBox }) {
         <div className="header">
         <svg data-testid="header-svg" width="100%" height="100%" viewBox="0 0 1000 240">
         {/* Cat body and head */}
-        <circle r="48" cx="160" cy="160" fill={colorCat} />      {/* r * 4, cx * 4, cy * 4 */}
-        <circle r="32" cx="160" cy="88" fill={colorCat} />       {/* r * 4, cx * 4, cy * 4 */}
+        <circle r="48" cx="160" cy="160" fill={colorCat} />
+        <circle r="32" cx="160" cy="88" fill={colorCat} />
         
         {/* Eyes */}
-        <circle r="10" cx="174" cy="84" fill={eyeColor} />       {/* r * 4, cx * 4, cy * 4 */}
-        <circle r="10" cx="146" cy="84" fill={eyeColor} />       {/* r * 4, cx * 4, cy * 4 */}
+        <circle r="10" cx="174" cy="84" fill={eyeColor} />
+        <circle r="10" cx="146" cy="84" fill={eyeColor} />
         
         {/* Ears */}
         <polygon points="136,40 132,80 152,60" fill={colorCat} />
@@ -59,13 +59,13 @@ const Wrapper = styled.section`
         background-color: var(--color-main-dark)
     }
     .header svg {
-    width: 25vw; /* Base size for desktop */
+    width: 25vw;
     height: auto;
     }
 
     @media (max-width: 800px) {
     .header svg {
-        width: 80vw; /* Make it take up more space on mobile */
+        width: 80vw;
     }
     }
 `;
