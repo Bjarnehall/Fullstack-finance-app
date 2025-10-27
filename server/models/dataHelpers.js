@@ -1,3 +1,4 @@
+const http = require("https");
 
 function startDateDays (days) {
     const now = new Date();
@@ -9,5 +10,35 @@ function startDateDays (days) {
     return startDate;
 }
 
-module.exports = { startDateDays };
+function getTwelveData(ticker, timeframe, startDate, key) {
+	return new Promise((resolve, reject) => {
+		const options = {
+			"method": "GET",
+			"hostname": "api.twelvedata.com",
+			"port": null,
+			"path": `/time_series?apikey=${key}&symbol=${ticker}&interval=${timeframe}&start_date=${startDate}&format=JSON`
+		}
+
+		const req = http.request(options, function (res) {
+			const chunks = [];
+
+			res.on("data", function (chunk) {
+				chunks.push(chunk);
+			});
+
+			res.on("end", function () {
+				const body = Buffer.concat(chunks).toString();
+				const json = JSON.parse(body);
+				resolve(json);
+			});
+		});
+
+		req.end();
+	});
+}
+
+module.exports = { 
+    startDateDays,
+    getTwelveData,
+};
 
