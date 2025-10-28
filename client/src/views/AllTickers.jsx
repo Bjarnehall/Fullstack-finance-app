@@ -1,4 +1,5 @@
 import TickerInformation from '../models/TickerInformation.jsx';
+import TickerMeta from "../models/TickerMeta.jsx";
 import {
   Menu,
 } from '../views/index.js';
@@ -9,11 +10,10 @@ function AllTickers() {
     <Wrapper>
         <Menu />
         <div className="information-dashboard">
-            <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="GOOG" />
-            <TickerInformation symbol="OKTA" />
-            <TickerInformation symbol="TSLA" />
-            <TickerInformation symbol="TSLA" />
+{/*             <TickerInformation symbol="AAPL" />
+            <TickerInformation symbol="TSLA" /> */}
+            <TickerMeta ticker="AAPL"/>
+            <TickerMeta ticker="TSLA" />
         </div>
     </Wrapper>
   );

@@ -8,7 +8,7 @@ API route to get "meta-data" about a ticker.
 */
 router.get("/get/information/:ticker", getMetaDataTicker);
 
-router.get('/get/:symbol', getTicker);
-router.get('/daily/:symbol', getDailyPrices);
+/* router.get('/get/:symbol', getTicker);
+router.get('/daily/:symbol', getDailyPrices); */
 
 module.exports = router;
