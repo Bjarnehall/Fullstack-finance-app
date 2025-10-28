@@ -23,10 +23,10 @@ Return data
 async function getInformation(ticker) {
     try {
         const now = new Date();
-        const oneDayTime = 24 * 60 * 60 * 1000;
+        const twelveHourTime = 12 * 60 * 60 * 1000;
         let financeData = await Ticker.findOne({ 'information.symbol': ticker });
 
-        if (!financeData || (now - financeData.informationDate) > oneDayTime) {
+        if (!financeData || (now - financeData.informationDate) > twelveHourTime) {
             const newData = await getFinanceData(ticker);
 
             if (financeData) {
