@@ -27,7 +27,7 @@ function Menu() {
 const Wrapper = styled.section`
     .nav {
         width: 140px;
-        height: 90vh;
+        height: 94vh;
         background-color: var(--color-main-light)
     }
     button {

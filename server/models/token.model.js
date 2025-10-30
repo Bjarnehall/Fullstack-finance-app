@@ -6,7 +6,7 @@ Creates a jwt token signed by user id
 */
 const createAccessToken = userId => {
     return sign({ userId }, ACCESS_TOKEN_SECRET, {
-        expiresIn: '1m',
+        expiresIn: '60m',
     })
 };
 /*

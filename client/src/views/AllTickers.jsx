@@ -14,6 +14,14 @@ function AllTickers() {
             <TickerInformation symbol="TSLA" /> */}
             <TickerMeta ticker="AAPL"/>
             <TickerMeta ticker="TSLA" />
+            <TickerMeta ticker="XTRAF" />
+            <TickerMeta ticker="NVDA" />
+            <TickerMeta ticker="AMD" />
+            <TickerMeta ticker="MRNA" />
+            <TickerMeta ticker="CRM" />
+            <TickerMeta ticker="GOOG" />
+            <TickerMeta ticker="META" />
+            <TickerMeta ticker="INTC" />
         </div>
     </Wrapper>
   );
@@ -25,8 +33,11 @@ const Wrapper = styled.section`
         display: flex;
         flex-wrap: wrap;
         max-width: 100%;
+        height: 94vh;
         background-color: var(--color-main);
         padding: 1rem;
+
+        overflow-y: auto;
     }
 `;
 
