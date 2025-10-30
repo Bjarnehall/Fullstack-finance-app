@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-/* import styled from 'styled-components'; */
 import styled from 'styled-components';
 
 function TickerMeta({ ticker }) {
@@ -24,23 +23,61 @@ function TickerMeta({ ticker }) {
         }
     }, [ticker]);
 
+
     return (
         <Wrapper>
             <div className="metaDash">
+                <div className="metaHead">
                 <h4>{dataMeta.information?.displayName} </h4>
-                <p>Analyst Rating: {dataMeta.information?.averageAnalystRating ? dataMeta.information.averageAnalystRating.split(" - ")[1] : "No data"}</p>
+                <p>Analyst Rating: 
+                    <span style={{ fontWeight: "bold" }}>{dataMeta.information?.averageAnalystRating ? dataMeta.information.averageAnalystRating.split(" - ")[1] : "No data"}</span>
+                </p>
+                </div>
                 <ul>
-                    <li>{dataMeta.information?.currency} {dataMeta.information?.bid}</li>
-                    <li>50 day AVG: {dataMeta.information?.fiftyDayAverage.toFixed(2)}</li>
-                    <li>200 day AVG: {dataMeta.information?.twoHundredDayAverage.toFixed(2)}</li>
-                    <li>200 daily Movement AVG: {dataMeta.information?.twoHundredDayAverageChangePercent.toFixed(2)}</li>
-                    <li>Year to date high: {dataMeta.information?.fiftyTwoWeekHigh}</li>
-                    <li>Year to date low: {dataMeta.information?.fiftyTwoWeekLow}</li>
-                    <li>Dividend yield: {dataMeta.information?.dividendYield || "No dividend"}</li>
-                    <li>Current year P/E: {dataMeta.information?.priceEpsCurrentYear ? dataMeta.information.priceEpsCurrentYear.toFixed(2) : "No data"}</li>
-                    <li>Trailing year P/E: {dataMeta.information?.trailingPE ? dataMeta.information.trailingPE.toFixed(2) : "No data"}</li>
-                    <li>Forward year P/E: {dataMeta.information?.forwardPE ? dataMeta.information.forwardPE.toFixed(2) : "No data"}</li>
-                    <li>Market CAP: {(dataMeta.information?.marketCap / 1000000).toFixed(0)} M {dataMeta.information?.currency}</li>    
+                    <li>
+                        <span>{dataMeta.information?.currency}</span> 
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.bid}</span>
+                    </li>
+                    <li>
+                        <span>50 day AVG: </span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.fiftyDayAverage.toFixed(2)}</span>
+                    </li>
+                    <li>
+                        <span>200 day AVG: </span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.twoHundredDayAverage.toFixed(2)}</span>
+                    </li>
+                    <li>
+                        <span>Daily AVG Movment: </span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.twoHundredDayAverageChangePercent.toFixed(2)} %</span>
+                    </li>
+                    <li>
+                        <span>Year to date high: </span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.fiftyTwoWeekHigh}</span>
+                    </li>
+                    <li>
+                        <span>Year to date low: </span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.fiftyTwoWeekLow}</span>
+                    </li>
+                    <li>
+                        <span>Dividend yield: </span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.dividendYield || "No dividend"}</span>
+                    </li>
+                    <li>
+                        <span>Current year P/E: </span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.priceEpsCurrentYear ? dataMeta.information.priceEpsCurrentYear.toFixed(2) : "No data"}</span>
+                    </li>
+                    <li>
+                        <span>Trailing year P/E: </span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.trailingPE ? dataMeta.information.trailingPE.toFixed(2) : "No data"}</span>
+                    </li>
+                    <li>
+                        <span>Forward year P/E: </span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.forwardPE ? dataMeta.information.forwardPE.toFixed(2) : "No data"}</span>
+                    </li>
+                    <li>
+                        <span>Market CAP <small>in B {dataMeta.information?.currency}: </small></span>
+                        <span style={{ color: "#9e876f" }}>{(dataMeta.information?.marketCap / 1000_000_000).toFixed(1)}</span>
+                    </li>    
                 </ul>
             </div>
         </Wrapper>
@@ -49,14 +86,43 @@ function TickerMeta({ ticker }) {
 
 const Wrapper = styled.section`
     .metaDash {
-        background-color: #fdfda4;
-        width: 90%;
-        margin: 20px;
+        color: var(--color-font-highlight);
+        background-color: var(--color-main-light);
+        width: 260px;
+        margin: 7px;
         padding: 15px;
+        text-shadow: 1px 1px black;
+        border-radius: 5px;
     }
-    .metaDash ul {
-        background-color: yellow;
-        width: 400px;
+    .metaHead {
+        color: #fff;
+        font-size: 0.85em;
+        background-color: var(--color-main-detail-mellow);
+        padding: 7px;
+        margin-bottom: -4px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .metaHead p {
+        display: flex;
+        justify-content: space-between;
+    }
+    ul {
+        background-color: var(--color-main);
+        padding-top: 2px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    li {
+        color: var(--color-main-lighter);
+        display: flex;
+        justify-content: space-between;
+        width: 230px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 4px;
+        border-bottom: solid 1px var(--color-main-light);
+        font-size: 0.85em;
     }
 `;
 

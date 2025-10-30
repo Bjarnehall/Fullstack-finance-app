@@ -1,30 +1,39 @@
-import TickerInformation from '../models/TickerInformation.jsx';
 import TickerMeta from "../models/TickerMeta.jsx";
 import {
   Menu,
 } from '../views/index.js';
 import styled from 'styled-components';
 
+const availableTickers = [
+  "AAPL",
+  "TSLA",
+  "XTRAF",
+  "NVDA",
+  "AMD",
+  "MRNA",
+  "CRM",
+  "GOOG",
+  "META",
+  "INTC"
+]
+
+function showTickers(tickers) {
+    const tickerList = [];
+    for (let i = 0; i < tickers.length; i++) {
+      tickerList.push(<TickerMeta key={tickers[i]} ticker={tickers[i]} />)
+    }
+    return tickerList;
+}
+
 function AllTickers() {
-  return (
-    <Wrapper>
-        <Menu />
-        <div className="information-dashboard">
-{/*             <TickerInformation symbol="AAPL" />
-            <TickerInformation symbol="TSLA" /> */}
-            <TickerMeta ticker="AAPL"/>
-            <TickerMeta ticker="TSLA" />
-            <TickerMeta ticker="XTRAF" />
-            <TickerMeta ticker="NVDA" />
-            <TickerMeta ticker="AMD" />
-            <TickerMeta ticker="MRNA" />
-            <TickerMeta ticker="CRM" />
-            <TickerMeta ticker="GOOG" />
-            <TickerMeta ticker="META" />
-            <TickerMeta ticker="INTC" />
-        </div>
-    </Wrapper>
-  );
+    return (
+      <Wrapper>
+          <Menu />
+          <div className="information-dashboard">
+            {showTickers(availableTickers)}
+          </div>
+      </Wrapper>
+    );
 }
 
 const Wrapper = styled.section`
@@ -36,7 +45,6 @@ const Wrapper = styled.section`
         height: 94vh;
         background-color: var(--color-main);
         padding: 1rem;
-
         overflow-y: auto;
     }
 `;

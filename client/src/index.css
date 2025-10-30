@@ -8,8 +8,11 @@
     --color-main: rgb(29, 29, 29);
     --color-main-dark: rgb(27, 27, 27);
     --color-main-light: #333333;
+    --color-main-lighter: #707070;
+    --color-main-detail: rgb(255, 255, 10);
+    --color-main-detail-mellow: #1c2b5a;
     --color-font-main: #ffffff;
-    --color-font-highlight: rgb(155, 189, 223);
+    --color-font-highlight: #9BBDDF;
     --color-light-border: rgb(66, 66, 66);
     --color-message-warning: rgba(117, 64, 64, 0.73);
     --color-shadow: rgba(0, 0, 0, 0.329), 0 2px 4px -1px rgba(0, 0, 0, 0.37);
@@ -18,6 +21,7 @@
 html {
   font-size: 100%;
   font-family: sans-serif;
+  line-height: 1.25;
 }
 
 body {
