@@ -1,4 +1,4 @@
-const { getInformation } = require("../models/metaData.model.js");
+const { getInformation } = require("../models/information.model.js");
 const { availableTickers } = require("../variables/availableTickers.js");
 /*
 Takes ticker as an argument in the url and use it with 
@@ -11,7 +11,7 @@ const getMetaDataTicker = async (req, res) => {
             const data = await getInformation(ticker);
             res.json(data);
         } catch (err) {
-            res.status(500).json({ error: "Failed to get Meta data" });
+            res.status(500).json({ error: "Failed to get information data" });
         }
     } else {
         res.status(400).json({ error: "That ticker is not available" });

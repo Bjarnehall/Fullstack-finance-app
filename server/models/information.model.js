@@ -1,6 +1,3 @@
-/*
-Model to handle Meta ticker data request.
-*/
 const Ticker = require('./tickerSchema.model.js');
 const yahooFinance = require("yahoo-finance2").default;
 yahooFinance.suppressNotices(['yahooSurvey']);

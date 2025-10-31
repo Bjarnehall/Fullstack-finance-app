@@ -1,17 +1,17 @@
 
 const availableTickers = [
     "AAPL",
-    "TSLA",
-    "XTRAF",
-    "NVDA",
     "AMD",
-    "MRNA",
+    "AMZN",
     "CRM",
     "GOOG",
+    "INTC",
     "META",
-    "INTC"
+    "MRNA",
+    "MSFT",
+    "NVDA",
+    "TSLA",
+    "XTRAF",
 ]
-
-/* const availableTickers = ["AAPL", "TSLA", "XTRAF", "NVDA"] */
 
 module.exports = { availableTickers };

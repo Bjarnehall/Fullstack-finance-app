@@ -1,7 +1,7 @@
 const User = require('../models/user.model.js');
 const { hash, compare } = require('bcryptjs');
 const { createAccessToken, sendAccessToken, userFromToken } = require('../models/token.model.js');
-/* const { ACCESS_TOKEN_SECRET } = require('../../keys.js'); */
+
 /*
 Searches for users in database collection User
 return result as json and status code
