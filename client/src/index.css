@@ -6,8 +6,8 @@
 
 :root {
     --color-main: rgb(29, 29, 29);
-    --color-main-dark: rgb(27, 27, 27);
-    --color-main-light: #333333;
+    --color-main-dark: rgb(22, 22, 22);
+    --color-main-light: #242424;
     --color-main-lighter: #707070;
     --color-main-detail: rgb(255, 255, 10);
     --color-main-detail-mellow: #1c2b5a;

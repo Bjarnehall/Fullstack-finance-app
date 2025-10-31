@@ -108,7 +108,7 @@ const Wrapper = styled.section`
         justify-content: space-between;
     }
     ul {
-        background-color: var(--color-main);
+        background-color: var(--color-main-dark);
         padding-top: 2px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;

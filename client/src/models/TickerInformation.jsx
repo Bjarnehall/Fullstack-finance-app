@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+/* import { useEffect, useState } from "react";
 import styled from 'styled-components';
 import { Line } from "react-chartjs-2";
 import { Chart, registerables } from "chart.js";
@@ -7,12 +7,12 @@ Chart.register(...registerables);
 
 function TickerInformaiton({ symbol }) {
     const [ticker, setTicker] = useState([]);
-    const [daily, setDaily] = useState([]);
+    const [daily, setDaily] = useState([]); */
 
     /*
     fetch ticker information
     */
-    async function fetchTicker() {
+/*     async function fetchTicker() {
         try {
             const response = await fetch (`http://localhost:3005/api/ticker/get/${symbol}`);
             const data = await response.json();
@@ -127,9 +127,9 @@ function TickerInformaiton({ symbol }) {
             </div>
         </Wrapper>
     );
-};
+}; */
 
-const Wrapper = styled.section`
+/* const Wrapper = styled.section`
     .asset {
         display: flex;
         background-color: var(--color-main-light);
@@ -160,4 +160,4 @@ const Wrapper = styled.section`
 
 `;
 
-export default TickerInformaiton;
+export default TickerInformaiton; */
