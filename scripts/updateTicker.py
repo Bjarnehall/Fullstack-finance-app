@@ -42,8 +42,8 @@ while True:
         url_information = f"{API_URL}/information/{ticker}"
         url_thirty_min = f"{API_URL}/thirtymin/{ticker}"
         get_information_ticker(url_information, ticker)
-        time.sleep(random.randint(12, 20))
+        time.sleep(random.randint(13, 20))
         get_thirtymin_ticker(url_thirty_min, ticker)
-        time.sleep(random.randint(12, 20))
+        time.sleep(random.randint(13, 20))
     print("Sleeping...\n")
     time.sleep(random.randint(30, 60))

@@ -5,16 +5,17 @@ import {
 } from '../views/index.js';
 import styled from 'styled-components';
 
-function showTickers(tickers) {
+function showTickers(tickers, activeTicker, setActiveTicker) {
     const tickerList = [];
     for (let i = 0; i < tickers.length; i++) {
-      tickerList.push(<TickerMeta key={tickers[i]} ticker={tickers[i]} />)
+      tickerList.push(<TickerMeta key={tickers[i]} ticker={tickers[i]} activeTicker={activeTicker} setActiveTicker={setActiveTicker}/>)
     }
     return tickerList;
 }
 
 function AllTickers() {
   const [tickers, setTickers] = useState([]);
+  const [activeTicker, setActiveTicker] = useState(null);
 
   const fetchTickers = () => {
     fetch("http://localhost:3005/api/ticker/get/available")
@@ -30,7 +31,7 @@ function AllTickers() {
       <Wrapper>
           <Menu />
           <div className="information-dashboard">
-            {showTickers(tickers)}
+            {showTickers(tickers, activeTicker, setActiveTicker)}
           </div>
       </Wrapper>
     );

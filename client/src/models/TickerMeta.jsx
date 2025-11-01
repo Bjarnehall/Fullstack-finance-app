@@ -1,8 +1,14 @@
+
 import { useEffect, useState } from "react";
 import styled from 'styled-components';
+import DetailedTicker from "./DetailedTicker";
 
-function TickerMeta({ ticker }) {
+
+function TickerMeta({ ticker, activeTicker, setActiveTicker }) {
+
     const [dataMeta, setTickerMeta] = useState({});
+    const showDetail = activeTicker === ticker;
+    const hidden = activeTicker && activeTicker !== ticker;
 
 
     async function fetchTicker() {
@@ -23,9 +29,17 @@ function TickerMeta({ ticker }) {
         }
     }, [ticker]);
 
+    function toggleDetail() {
+        if (showDetail) {
+            setActiveTicker(null);
+        } else {
+            setActiveTicker(ticker);
+        }
+    }
 
     return (
         <Wrapper>
+            <div className="meta-wrapper" style={{ display: hidden ? "none" : "flex"}}>
             <div className="metaDash">
                 <div className="metaHead">
                 <h4>{dataMeta.information?.displayName} </h4>
@@ -79,12 +93,24 @@ function TickerMeta({ ticker }) {
                         <span style={{ color: "#9e876f" }}>{(dataMeta.information?.marketCap / 1000_000_000).toFixed(1)}</span>
                     </li>    
                 </ul>
+                <div className="metaDash-nav">
+                    <button onClick={toggleDetail} className="metaDash-button" id="detail">Detailed view</button>
+                    <button className="metaDash-button" id="favorite">Favorite</button>
+                </div>
+
+            </div>
+            <div className="metaDash-details">
+                {showDetail && <DetailedTicker ticker={ticker} />}
+            </div>
             </div>
         </Wrapper>
     );
 }
 
 const Wrapper = styled.section`
+    .meta-wrapper {
+        display: flex;
+    }
     .metaDash {
         color: var(--color-font-highlight);
         background-color: var(--color-main-light);
@@ -111,8 +137,6 @@ const Wrapper = styled.section`
     ul {
         background-color: var(--color-main-dark);
         padding-top: 2px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
     }
     li {
         color: var(--color-main-lighter);
@@ -124,6 +148,24 @@ const Wrapper = styled.section`
         margin-top: 4px;
         border-bottom: solid 1px var(--color-main-light);
         font-size: 0.85em;
+    }
+    .metaDash-nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        background-color: var(--color-main-detail-mellow);
+    }
+    .metaDash-button {
+        width: 45%;
+        background-color: var(--color-main-detail);
+        border: none;
+        margin: 2px;
+        padding: 2px;
+    }
+    .metaDash-button:hover {
+        background-color: var(--color-main-light);
+        color: var(--color-main-detail);
+        cursor: pointer;
     }
 `;
 

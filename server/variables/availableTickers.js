@@ -7,10 +7,10 @@ const availableTickers = [
   "AMZN",      // AMAZON
   "AMD",       // Advanced Micro Devices
   "GOOG",      // ALPHABET
-  "PSNY",     // POLESTAR
+/*   "PSNY",     // POLESTAR */
   "PLTR",      // PALANTIR
   "META",      // META PLATFORMS
-  "NIO",       // NIO ADR
+/*   "NIO",       // NIO ADR */
   "TSM",       // TAIWAN SEMICONDUCTOR MFG CO
   "KLAR",      // KLARNA GROUP
   "KO",        // COCA-COLA
@@ -19,8 +19,8 @@ const availableTickers = [
   "SPOT",      // SPOTIFY
   "AMC",       // AMC ENTERTAINMENT
   "PFE",       // PFIZER
-  "O",         // REALTY INCOME REIT
-  "NEON",      // NEONODE
+/*   "O",         // REALTY INCOME REIT */
+/*   "NEON",      // NEONODE */
   "NFLX",      // NETFLIX
   "AVGO",      // BROADCOM
   "TTWO",      // TAKE-TWO INTERACTIVE SOFTWARE
@@ -32,25 +32,25 @@ const availableTickers = [
   "SOFI",      // SOFI TECHNOLOGIES
   "BYND",      // BEYOND MEAT
   "ADBE",      // ADOBE
-  "ORCL",      // ORACLE
-  "COIN",      // COINBASE GLOBAL
-  "CRM",       // SALESFORCE
+/*   "ORCL",      // ORACLE */
+/*   "COIN",      // COINBASE GLOBAL */
+/*   "CRM",       // SALESFORCE */
   "SMCI",      // SUPER MICRO COMPUTER
   "PYPL",      // PAYPAL
   "RBLX",      // ROBLOX
-  "IONQ",      // IONQ
+/*   "IONQ",      // IONQ */
   "JPM",       // JP MORGAN CHASE & CO
   "BLK",       // BLACKROCK
   "NKE",       // NIKE
   "LCID",      // LUCID GROUP
   "WMT",       // WALMART
   "T",         // AT&T
-  "ABBV",      // ABBVIE
+/*   "ABBV",      // ABBVIE */
   "MARA",      // MARA HOLDINGS
   "XOM",       // EXXON MOBIL
   "ASML",      // ASML HOLDING
   "SONY",      // SONY ADR
-  "PLUG",      // PLUG POWER
+ /*  "PLUG",      // PLUG POWER */
   "CRWD",      // CROWDSTRIKE
   "SBUX",      // STARBUCKS
   "ABCL",      // ABCELLERA BIOLOGICS

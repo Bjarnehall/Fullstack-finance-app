@@ -43,6 +43,7 @@ const Wrapper = styled.section`
     button:hover {
         color: yellow;
         background-color: var(--color-main-light);
+        cursor: pointer;
     }
 `;
 

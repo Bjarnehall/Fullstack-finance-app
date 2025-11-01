@@ -22,7 +22,7 @@ const router = createBrowserRouter([
   {
     path: '/information-tickers',
     element: <AllTickers />
-  },
+  }
 ]);
 
 function App() {
