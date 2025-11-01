@@ -40,15 +40,15 @@ function TickerMeta({ ticker }) {
                     </li>
                     <li>
                         <span>50 day AVG: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.fiftyDayAverage.toFixed(2)}</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.fiftyDayAverage ? dataMeta.information?.fiftyDayAverage.toFixed(2) : "No data"}</span>
                     </li>
                     <li>
                         <span>200 day AVG: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.twoHundredDayAverage.toFixed(2)}</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.twoHundredDayAverage ? dataMeta.information?.twoHundredDayAverage.toFixed(2) : "No data"}</span>
                     </li>
                     <li>
                         <span>Daily AVG Movment: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.twoHundredDayAverageChangePercent.toFixed(2)} %</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.twoHundredDayAverageChangePercent ? dataMeta.information?.twoHundredDayAverageChangePercent.toFixed(2) : "No data"} %</span>
                     </li>
                     <li>
                         <span>Year to date high: </span>
@@ -102,6 +102,7 @@ const Wrapper = styled.section`
         margin-bottom: -4px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        min-height: 70px;
     }
     .metaHead p {
         display: flex;

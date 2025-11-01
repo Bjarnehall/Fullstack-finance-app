@@ -1,21 +1,9 @@
+import { useState, useEffect } from "react";
 import TickerMeta from "../models/TickerMeta.jsx";
 import {
   Menu,
 } from '../views/index.js';
 import styled from 'styled-components';
-
-const availableTickers = [
-  "AAPL",
-  "TSLA",
-  "XTRAF",
-  "NVDA",
-  "AMD",
-  "MRNA",
-  "CRM",
-  "GOOG",
-  "META",
-  "INTC"
-]
 
 function showTickers(tickers) {
     const tickerList = [];
@@ -26,11 +14,23 @@ function showTickers(tickers) {
 }
 
 function AllTickers() {
+  const [tickers, setTickers] = useState([]);
+
+  const fetchTickers = () => {
+    fetch("http://localhost:3005/api/ticker/get/available")
+      .then(res => res.json())
+      .then(data => setTickers(data));
+  }
+
+  useEffect(() => {
+    fetchTickers();
+  }, []);
+
     return (
       <Wrapper>
           <Menu />
           <div className="information-dashboard">
-            {showTickers(availableTickers)}
+            {showTickers(tickers)}
           </div>
       </Wrapper>
     );

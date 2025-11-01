@@ -1,0 +1,3 @@
+Call thirtymin:   BRK-B -> 500
+Call thirtymin:   LOCK -> 500
+Call thirtymin:   BRK-B -> 500

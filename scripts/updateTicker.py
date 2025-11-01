@@ -12,13 +12,13 @@ def write_to_file(message):
 
 # Get all available tickers from API.
 def get_available_tickers():
-    response = requests.get(f"{API_URL}/available")
+    response = requests.get(f"{API_URL}/available", timeout=10)
     return response.json()
 
 # Call information ticker return status and
 # write to file if status not 200 to log errors.
-def get_information_ticker(url):
-    response = requests.get(url)
+def get_information_ticker(url, ticker):
+    response = requests.get(url, timeout=10)
     message = f"Call information: {ticker} -> {response.status_code}"
     print(message)
     if response.status_code != 200:
@@ -26,8 +26,8 @@ def get_information_ticker(url):
 
 # Call prices from ticker return status and
 # write to file if status not 200 to log errors.
-def get_thirtymin_ticker(url):
-    response = requests.get(url)
+def get_thirtymin_ticker(url, ticker):
+    response = requests.get(url, timeout=10)
     message = f"Call thirtymin:   {ticker} -> {response.status_code}"
     print(message)
     if response.status_code != 200:
@@ -41,9 +41,9 @@ while True:
     for ticker in tickers:
         url_information = f"{API_URL}/information/{ticker}"
         url_thirty_min = f"{API_URL}/thirtymin/{ticker}"
-        get_information_ticker(url_information)
-        time.sleep(random.randint(9, 15))
-        get_thirtymin_ticker(url_thirty_min)
-        time.sleep(random.randint(9, 15))
+        get_information_ticker(url_information, ticker)
+        time.sleep(random.randint(12, 20))
+        get_thirtymin_ticker(url_thirty_min, ticker)
+        time.sleep(random.randint(12, 20))
     print("Sleeping...\n")
-    time.sleep(random.randint(9, 15))
+    time.sleep(random.randint(30, 60))
