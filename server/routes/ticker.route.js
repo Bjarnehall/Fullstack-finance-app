@@ -1,8 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const { getMetaDataTicker } = require("../controllers/information.controller.js");
+const { getMetaDataTicker, getAvailableTickers } = require("../controllers/information.controller.js");
 const { getThirtyMinPrices } = require("../controllers/price.controller.js");
 
+/*
+API route to return all available tickers.
+*/
+router.get("/get/available/", getAvailableTickers);
 /*
 API route to get "meta-data" about a ticker.
 */

@@ -1,4 +1,4 @@
-const Ticker = require('./tickerSchema.model.js');
+const Ticker = require("../schemas/ticker.schema.js");
 const yahooFinance = require("yahoo-finance2").default;
 yahooFinance.suppressNotices(['yahooSurvey']);
 
@@ -20,10 +20,11 @@ Return data
 async function getInformation(ticker) {
     try {
         const now = new Date();
-        const twelveHourTime = 12 * 60 * 60 * 1000;
+        // Limit the time for updates (4 hours) 
+        const limitUpdateTime = 4 * 60 * 60 * 1000;
         let financeData = await Ticker.findOne({ 'information.symbol': ticker });
 
-        if (!financeData || (now - financeData.informationDate) > twelveHourTime) {
+        if (!financeData || (now - financeData.informationDate) > limitUpdateTime) {
             const newData = await getFinanceData(ticker);
 
             if (financeData) {

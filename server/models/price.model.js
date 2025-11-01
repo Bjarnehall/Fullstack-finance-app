@@ -148,6 +148,7 @@ async function updatePrices (tickerDoc, ticker) {
 
 		return  { success: true, sortedUnique: tickerDoc.thirtyMinPrices };
 	}
+	return { success: true, sortedUnique: tickerDoc.thirtyMinPrices };
 }
 
 module.exports = { 

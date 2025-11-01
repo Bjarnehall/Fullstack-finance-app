@@ -1,4 +1,4 @@
-const User = require('../models/user.model.js');
+const User = require('../schemas/user.schema.js');
 const { hash, compare } = require('bcryptjs');
 const { createAccessToken, sendAccessToken, userFromToken } = require('../models/token.model.js');
 

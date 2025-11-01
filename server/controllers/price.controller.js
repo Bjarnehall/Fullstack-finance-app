@@ -1,7 +1,7 @@
 const { checkIfPricesUpToDate, populateNewPrices, updatePrices } = require("../models/price.model.js");
 const { getInformation } = require("../models/information.model.js");
 const { availableTickers } = require("../variables/availableTickers.js");
-const Ticker = require("../models/tickerSchema.model.js");
+const Ticker = require("../schemas/ticker.schema.js");
 
 /*
 Check if ticker is in available tickers, try to get ticker from collection tickers in
@@ -13,6 +13,7 @@ collection. If already data fetch and store the missing data in collection.
 const getThirtyMinPrices = async (req, res) => {
 	try {
 		const { ticker } = req.params;
+		console.log(`api/ticker/get/thirtymin/${ticker} was called`);
 
 		if (!availableTickers.includes(ticker)) {
 			return res.status(400).json({ error: "That ticker is not available" });

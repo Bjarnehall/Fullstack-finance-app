@@ -6,6 +6,8 @@ the getInformation model. Returns the data to user.
 */
 const getMetaDataTicker = async (req, res) => {
     const { ticker } = req.params;
+    console.log(`api/ticker/get/information/${ticker} was called`);
+
     if (availableTickers.includes(ticker)) {
         try {
             const data = await getInformation(ticker);
@@ -18,4 +20,13 @@ const getMetaDataTicker = async (req, res) => {
     }
 };
 
-module.exports = { getMetaDataTicker };
+/*
+Return all tickers available in API.
+*/
+const getAvailableTickers = (req, res) => {
+    console.log("api/ticker/get/available was called");
+    res.status(200).json(availableTickers);
+}
+
+
+module.exports = { getMetaDataTicker, getAvailableTickers };
