@@ -92,7 +92,7 @@ async function populateNewPrices (tickerDoc, ticker) {
 	const getPriceData = await getTwelveData(ticker, timeframe, startDate, key);
 
 	if (!getPriceData.values) {
-		return { success: false, error: "Could not fetch new price data" };
+		return { success: false, error: "Could not fetch new price data to store new prices" };
 	}
 
 	const prices = formatPriceData(getPriceData)
@@ -117,7 +117,8 @@ async function updatePrices (tickerDoc, ticker) {
 	const getPricesData = await getTwelveData(ticker, timeframe, startDate, key);
 
 	if (!getPricesData.values || getPricesData.values.length === 0) {
-		return { success: false, error: "Could not fetch new price data" };
+		console.log("Could not get any new prices from API but tried");
+		return { success: true, sortedUnique: tickerDoc.thirtyMinPrices };
 	}
 
 	const newPrices = formatPriceData(getPricesData)

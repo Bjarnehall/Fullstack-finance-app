@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import TickerMeta from "../models/TickerMeta.jsx";
 import {
   Menu,
@@ -14,14 +14,27 @@ function showTickers(tickers, activeTicker, setActiveTicker) {
 }
 
 function AllTickers() {
-  const [tickers, setTickers] = useState([]);
-  const [activeTicker, setActiveTicker] = useState(null);
+    const [tickers, setTickers] = useState([]);
+    const [activeTicker, setActiveTicker] = useState(null);
+    const lastFetch = useRef(0);
+    const FETCH_LIMIT = 2000;
 
-  const fetchTickers = () => {
-    fetch("http://localhost:3005/api/ticker/get/available")
-      .then(res => res.json())
-      .then(data => setTickers(data));
-  }
+
+    const fetchTickers = () => {
+        const now = Date.now();
+        const timeSinceFetch = now - lastFetch.current;
+
+        if (timeSinceFetch < FETCH_LIMIT) {
+          console.log("Skip fetch since recently called");
+          return;
+        }
+
+        lastFetch.current = now;
+  
+        fetch("http://localhost:3005/api/ticker/get/available")
+            .then(res => res.json())
+            .then(data => setTickers(data));
+    }
 
   useEffect(() => {
     fetchTickers();

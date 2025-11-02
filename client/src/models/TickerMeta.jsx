@@ -1,8 +1,7 @@
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import styled from 'styled-components';
 import DetailedTicker from "./DetailedTicker";
-
 
 function TickerMeta({ ticker, activeTicker, setActiveTicker }) {
 
@@ -10,8 +9,20 @@ function TickerMeta({ ticker, activeTicker, setActiveTicker }) {
     const showDetail = activeTicker === ticker;
     const hidden = activeTicker && activeTicker !== ticker;
 
+    const lastFetch = useRef(0);
+    const FETCH_LIMIT = 2000;
 
     async function fetchTicker() {
+        const now = Date.now();
+        const timeSinceFetch = now - lastFetch.current;
+
+        if (timeSinceFetch < FETCH_LIMIT) {
+            console.log("Skip fetch since recently called");
+            return;
+        }
+
+        lastFetch.current = now;
+
         try {
             const response = await fetch (`http://localhost:3005/api/ticker/get/information/${ticker}`);
             const dataMeta = await response.json();

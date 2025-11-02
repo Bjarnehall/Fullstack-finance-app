@@ -6,33 +6,34 @@ import CandleChart from './CandleChart';
 function DetailedTicker({ ticker }) {
 
     const [priceData, setPriceData] = useState([]);
+    const lastFetch = useRef(0);
+    const FETCH_LIMIT = 2000;
 
     async function fetchPrices() {
+        const now = Date.now();
+        const timeSinceFetch = now - lastFetch.current;
+
+        if (timeSinceFetch < FETCH_LIMIT) {
+            console.log("Skip fetch since recently called");
+            return;
+        }
+
+        lastFetch.current = now;
+
         try {
             const response = await fetch (`http://localhost:3005/api/ticker/get/thirtymin/${ticker}`);
             const priceData = await response.json();
-/*             console.log(setPriceData); */
             setPriceData(priceData);
-            
-/*             chartPrices(priceData); */
+
         } catch (err) {
             console.error(`Could not get priceData from ${ticker}:`, err);
             setPriceData([]);
         }
     }
 
-/*     function chartPrices(priceData) {
-        let count = priceData.length - 1;
-        for (let i = 0; i < 5; i++) {
-            console.log(priceData[count]);
-            count = count - 1;
-        }
-    } */
-
     useEffect(() => {
         if (ticker) {
             fetchPrices();
-/*             chartPrices(); */
         }
     }, [ticker]);
 
@@ -40,7 +41,7 @@ function DetailedTicker({ ticker }) {
         <Wrapper>
             <div className="price-chart">
                 <div className="chart">
-                    <p>prices {ticker}</p>
+                    {/* <p>prices {ticker}</p> */}
                     <CandleChart priceData={priceData} />
                 </div>
             </div>
