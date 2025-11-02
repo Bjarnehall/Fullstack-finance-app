@@ -1,18 +1,52 @@
 
+import { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
+import CandleChart from './CandleChart';
 
 function DetailedTicker({ ticker }) {
+
+    const [priceData, setPriceData] = useState([]);
+
+    async function fetchPrices() {
+        try {
+            const response = await fetch (`http://localhost:3005/api/ticker/get/thirtymin/${ticker}`);
+            const priceData = await response.json();
+/*             console.log(setPriceData); */
+            setPriceData(priceData);
+            
+/*             chartPrices(priceData); */
+        } catch (err) {
+            console.error(`Could not get priceData from ${ticker}:`, err);
+            setPriceData([]);
+        }
+    }
+
+/*     function chartPrices(priceData) {
+        let count = priceData.length - 1;
+        for (let i = 0; i < 5; i++) {
+            console.log(priceData[count]);
+            count = count - 1;
+        }
+    } */
+
+    useEffect(() => {
+        if (ticker) {
+            fetchPrices();
+/*             chartPrices(); */
+        }
+    }, [ticker]);
 
     return (
         <Wrapper>
             <div className="price-chart">
                 <div className="chart">
                     <p>prices {ticker}</p>
+                    <CandleChart priceData={priceData} />
                 </div>
             </div>
             <div className="extra-data">
                 <div className="data">
-                    <p>This is extra data</p>
+                    <p>This is extra data</p>   
                 </div>
             </div>
         </Wrapper>

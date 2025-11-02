@@ -56,8 +56,8 @@ const availableTickers = [
   "ABCL",      // ABCELLERA BIOLOGICS
   "CVX",       // CHEVRON
   "BAC",       // BANK OF AMERICA
-  "RIVN",      // RIVIAN AUTOMOTIVE
-  "MRK",       // MERCK & CO
+/*   "RIVN",      // RIVIAN AUTOMOTIVE */
+/*   "MRK",       // MERCK & CO */
   "GS",        // GOLDMAN SACHS
   "AI",        // C3.AI
   "RTX",       // RTX CORPORATION
@@ -65,7 +65,7 @@ const availableTickers = [
   "UBER",      // UBER TECHNOLOGIES
   "CAT",       // CATERPILLAR
   "COST",      // COSTCO WHOLESALE
-  "ISRG",      // INTUITIVE SURGICAL
+/*   "ISRG",      // INTUITIVE SURGICAL */
 ];
 
 module.exports = { availableTickers };

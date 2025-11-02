@@ -21,7 +21,7 @@ function TickerMeta({ ticker, activeTicker, setActiveTicker }) {
             console.error(`Could not get metaData from ${ticker}:`, err);
             setTickerMeta([]);
             }
-        }
+    }
 
     useEffect(() => {
         if (ticker) {
