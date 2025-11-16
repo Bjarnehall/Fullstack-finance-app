@@ -111,4 +111,10 @@ const getMlChart = (req, res) => {
 
 }
 
-module.exports = { getThirtyMinPrices, savePriceChart, getFullChart, saveMlChart, getMlChart };
+module.exports = {
+	getThirtyMinPrices,
+	savePriceChart,
+	getFullChart,
+	saveMlChart,
+	getMlChart
+};

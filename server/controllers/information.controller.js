@@ -29,4 +29,7 @@ const getAvailableTickers = (req, res) => {
 }
 
 
-module.exports = { getMetaDataTicker, getAvailableTickers };
+module.exports = {
+    getMetaDataTicker,
+    getAvailableTickers
+};

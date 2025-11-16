@@ -46,4 +46,4 @@ async function getInformation(ticker) {
     }
 }
 
-module.exports = { getInformation };
+module.exports = { getInformation, getFinanceData };

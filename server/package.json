@@ -7,7 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "test": "mocha",
+    "coverage": "c8 --include 'models/*.js' --include 'controllers/*.js' --exclude 'test/*.js' mocha",
     "serve": "node index.js",
     "dev": "nodemon index.js"
   },
@@ -23,6 +25,12 @@
     "yahoo-finance2": "^2.13.3"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "c8": "^10.1.3",
+    "chai": "^6.2.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "mocha": "^11.7.5",
     "nodemon": "^3.1.10"
   }
 }

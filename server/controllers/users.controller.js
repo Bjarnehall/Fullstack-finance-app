@@ -118,7 +118,6 @@ const userValid = async (req, res) => {
     }
 };
 
-
 module.exports = {
     getUsers,
     getUser,
