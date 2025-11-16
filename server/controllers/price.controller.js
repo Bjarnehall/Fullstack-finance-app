@@ -1,7 +1,8 @@
 const { checkIfPricesUpToDate, populateNewPrices, updatePrices } = require("../models/price.model.js");
 const { getInformation } = require("../models/information.model.js");
 const { validateTicker } = require("../helpers/checks.helper.js");
-const Ticker = require("../schemas/ticker.schema.js");
+const { findTicker } = require("../models/db.model.js");
+//const Ticker = require("../schemas/ticker.schema.js");
 
 /*
 Check if ticker is in available tickers, try to get ticker from collection tickers in
@@ -18,7 +19,7 @@ const getThirtyMinPrices = async (req, res) => {
 			return res.status(400).json("That ticker is not available");
 		}
 
-		let tickerDoc = await Ticker.findOne({ "information.symbol": ticker });
+		let tickerDoc = await findTicker(ticker);
 
 		if (!tickerDoc) {
 			tickerDoc = await getInformation(ticker);

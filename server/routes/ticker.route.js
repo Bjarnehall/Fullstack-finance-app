@@ -4,11 +4,11 @@ const { getMetaDataTicker, getAvailableTickers } = require("../controllers/infor
 const { getThirtyMinPrices, savePriceChart, getFullChart, saveMlChart, getMlChart } = require("../controllers/price.controller.js");
 
 /*
-API route to return all available tickers.
+Return all available tickers.
 */
 router.get("/get/available/", getAvailableTickers);
 /*
-API route to get "meta-data" about a ticker.
+Return meta-data about a single ticker.
 */
 router.get("/get/information/:ticker", getMetaDataTicker);
 /*

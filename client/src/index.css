@@ -5,9 +5,9 @@
 }
 
 :root {
-    --color-main: rgb(29, 29, 29);
-    --color-main-dark: rgb(14, 14, 14);
-    --color-main-light: #242424;
+    --color-main: rgb(16, 17, 24);
+    --color-main-dark: rgb(0, 0, 0);
+    --color-main-light: #050611;
     --color-main-lighter: #707070;
     --color-main-detail: rgb(255, 255, 10);
     --color-main-detail-mellow: #1f2431;
