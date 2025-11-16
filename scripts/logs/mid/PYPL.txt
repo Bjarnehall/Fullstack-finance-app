@@ -1,0 +1,14 @@
+PYPL
+NUMBER OF TRADES: 10
+AVG TRADE: $0.21
+MAVG1: 156
+MAVG2: 100
+Return $46.56
+----------------
+PYPL
+NUMBER OF TRADES: 26
+AVG TRADE: $0.6
+MAVG1: 66
+MAVG2: 53
+Return $43.08
+----------------

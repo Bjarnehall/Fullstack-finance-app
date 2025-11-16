@@ -1,0 +1,14 @@
+KLAR
+NUMBER OF TRADES: 6
+AVG TRADE: $0.14
+MAVG1: 154
+MAVG2: 38
+Return $42.83
+----------------
+KLAR
+NUMBER OF TRADES: 13
+AVG TRADE: $0.38
+MAVG1: 43
+MAVG2: 55
+Return $34.02
+----------------

@@ -1,0 +1,14 @@
+PEP
+NUMBER OF TRADES: 15
+AVG TRADE: $0.81
+MAVG1: 88
+MAVG2: 64
+Return $18.52
+----------------
+PEP
+NUMBER OF TRADES: 15
+AVG TRADE: $0.81
+MAVG1: 88
+MAVG2: 64
+Return $18.52
+----------------

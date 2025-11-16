@@ -1,0 +1,14 @@
+BLK
+NUMBER OF TRADES: 20
+AVG TRADE: $0.87
+MAVG1: 66
+MAVG2: 49
+Return $23.03
+----------------
+BLK
+NUMBER OF TRADES: 20
+AVG TRADE: $0.87
+MAVG1: 66
+MAVG2: 49
+Return $23.03
+----------------

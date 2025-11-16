@@ -1,0 +1,14 @@
+ABCL
+NUMBER OF TRADES: 23
+AVG TRADE: $0.27
+MAVG1: 45
+MAVG2: 62
+Return $84.8
+----------------
+ABCL
+NUMBER OF TRADES: 23
+AVG TRADE: $0.27
+MAVG1: 45
+MAVG2: 62
+Return $84.8
+----------------

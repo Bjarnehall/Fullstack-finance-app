@@ -1,0 +1,42 @@
+TSLA
+NUMBER OF TRADES: 40
+AVG TRADE: $1.02
+MAVG1: 31
+MAVG2: 22
+Return $39.16
+----------------
+TSLA
+NUMBER OF TRADES: 42
+AVG TRADE: $0.9
+MAVG1: 31
+MAVG2: 22
+Return $46.84
+----------------
+TSLA
+NUMBER OF TRADES: 43
+AVG TRADE: $0.95
+MAVG1: 31
+MAVG2: 22
+Return $45.37
+----------------
+TSLA
+NUMBER OF TRADES: 44
+AVG TRADE: $0.96
+MAVG1: 31
+MAVG2: 22
+Return $46.06
+----------------
+TSLA
+NUMBER OF TRADES: 17
+AVG TRADE: $0.4
+MAVG1: 20
+MAVG2: 54
+Return $42.39
+----------------
+TSLA
+NUMBER OF TRADES: 17
+AVG TRADE: $0.4
+MAVG1: 20
+MAVG2: 54
+Return $42.39
+----------------

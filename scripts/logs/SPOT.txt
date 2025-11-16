@@ -1,0 +1,42 @@
+SPOT
+NUMBER OF TRADES: 22
+AVG TRADE: $0.53
+MAVG1: 59
+MAVG2: 38
+Return $41.44
+----------------
+SPOT
+NUMBER OF TRADES: 22
+AVG TRADE: $0.55
+MAVG1: 59
+MAVG2: 38
+Return $40.0
+----------------
+SPOT
+NUMBER OF TRADES: 23
+AVG TRADE: $0.54
+MAVG1: 59
+MAVG2: 38
+Return $42.88
+----------------
+SPOT
+NUMBER OF TRADES: 23
+AVG TRADE: $0.55
+MAVG1: 59
+MAVG2: 38
+Return $41.53
+----------------
+SPOT
+NUMBER OF TRADES: 23
+AVG TRADE: $0.55
+MAVG1: 59
+MAVG2: 38
+Return $41.85
+----------------
+SPOT
+NUMBER OF TRADES: 23
+AVG TRADE: $0.55
+MAVG1: 59
+MAVG2: 38
+Return $41.85
+----------------

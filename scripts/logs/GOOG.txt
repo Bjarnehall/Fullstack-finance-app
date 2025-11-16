@@ -1,0 +1,42 @@
+GOOG
+NUMBER OF TRADES: 11
+AVG TRADE: $0.31
+MAVG1: 18
+MAVG2: 57
+Return $35.92
+----------------
+GOOG
+NUMBER OF TRADES: 61
+AVG TRADE: $2.19
+MAVG1: 16
+MAVG2: 10
+Return $27.8
+----------------
+GOOG
+NUMBER OF TRADES: 14
+AVG TRADE: $0.49
+MAVG1: 17
+MAVG2: 56
+Return $28.33
+----------------
+GOOG
+NUMBER OF TRADES: 14
+AVG TRADE: $0.52
+MAVG1: 17
+MAVG2: 56
+Return $26.84
+----------------
+GOOG
+NUMBER OF TRADES: 15
+AVG TRADE: $0.58
+MAVG1: 17
+MAVG2: 56
+Return $25.98
+----------------
+GOOG
+NUMBER OF TRADES: 15
+AVG TRADE: $0.58
+MAVG1: 17
+MAVG2: 56
+Return $25.98
+----------------

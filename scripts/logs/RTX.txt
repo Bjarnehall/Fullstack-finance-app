@@ -1,0 +1,35 @@
+RTX
+NUMBER OF TRADES: 33
+AVG TRADE: $1.17
+MAVG1: 34
+MAVG2: 44
+Return $28.2
+----------------
+RTX
+NUMBER OF TRADES: 30
+AVG TRADE: $1.12
+MAVG1: 34
+MAVG2: 45
+Return $26.9
+----------------
+RTX
+NUMBER OF TRADES: 30
+AVG TRADE: $1.07
+MAVG1: 34
+MAVG2: 45
+Return $27.99
+----------------
+RTX
+NUMBER OF TRADES: 30
+AVG TRADE: $1.1
+MAVG1: 34
+MAVG2: 45
+Return $27.15
+----------------
+RTX
+NUMBER OF TRADES: 31
+AVG TRADE: $1.16
+MAVG1: 34
+MAVG2: 45
+Return $26.61
+----------------

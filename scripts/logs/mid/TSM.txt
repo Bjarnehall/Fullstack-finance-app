@@ -1,0 +1,14 @@
+TSM
+NUMBER OF TRADES: 11
+AVG TRADE: $0.3
+MAVG1: 100
+MAVG2: 147
+Return $37.01
+----------------
+TSM
+NUMBER OF TRADES: 22
+AVG TRADE: $0.77
+MAVG1: 86
+MAVG2: 79
+Return $28.6
+----------------

@@ -46,4 +46,69 @@ const getThirtyMinPrices = async (req, res) => {
 	}
 };
 
-module.exports = { getThirtyMinPrices };
+const fs = require("fs");
+const path = require("path");
+
+const savePriceChart = (req, res) => {
+	const { ticker } = req.params;
+	const { image } = req.body;
+
+	const chartDir = path.join(__dirname, "../charts");
+
+	const fileName = `${ticker}-fullchart.png`;
+	const filePath = path.join(chartDir, fileName);
+
+	const imageBuffer = Buffer.from(image, "base64");
+
+    fs.writeFile(filePath, imageBuffer, (err) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: "Failed to save chart" });
+        }
+        return res.json({ success: true, path: filePath });
+    });
+};
+
+const saveMlChart = (req, res) => {
+	const { ticker } = req.params;
+	const { image } = req.body;
+
+	const chartDir = path.join(__dirname, "../charts/ml");
+
+	const fileName = `${ticker}-mlchart.png`;
+	const filePath = path.join(chartDir, fileName);
+
+	const imageBuffer = Buffer.from(image, "base64");
+
+    fs.writeFile(filePath, imageBuffer, (err) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: "Failed to save chart" });
+        }
+        return res.json({ success: true, path: filePath });
+    });
+};
+
+const getFullChart = (req, res) => {
+	const { ticker } = req.params;
+
+	const chartDir = path.join(__dirname, "../charts");
+	const fileName = `${ticker}-fullchart.png`;
+	const filePath = path.join(chartDir, fileName);
+
+	return res.sendFile(filePath);
+
+}
+
+const getMlChart = (req, res) => {
+	const { ticker } = req.params;
+
+	const chartDir = path.join(__dirname, "../charts/ml");
+	const fileName = `${ticker}-mlchart.png`;
+	const filePath = path.join(chartDir, fileName);
+
+	return res.sendFile(filePath);
+
+}
+
+module.exports = { getThirtyMinPrices, savePriceChart, getFullChart, saveMlChart, getMlChart };

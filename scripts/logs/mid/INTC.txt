@@ -1,0 +1,14 @@
+INTC
+NUMBER OF TRADES: 7
+AVG TRADE: $0.08
+MAVG1: 80
+MAVG2: 174
+Return $84.55
+----------------
+INTC
+NUMBER OF TRADES: 25
+AVG TRADE: $0.32
+MAVG1: 69
+MAVG2: 79
+Return $78.47
+----------------

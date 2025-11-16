@@ -1,0 +1,14 @@
+MSFT
+NUMBER OF TRADES: 18
+AVG TRADE: $0.86
+MAVG1: 163
+MAVG2: 154
+Return $20.87
+----------------
+MSFT
+NUMBER OF TRADES: 21
+AVG TRADE: $1.07
+MAVG1: 88
+MAVG2: 77
+Return $19.58
+----------------

@@ -1,0 +1,35 @@
+COST
+NUMBER OF TRADES: 39
+AVG TRADE: $2.37
+MAVG1: 25
+MAVG2: 19
+Return $16.46
+----------------
+COST
+NUMBER OF TRADES: 41
+AVG TRADE: $1.94
+MAVG1: 25
+MAVG2: 19
+Return $21.14
+----------------
+COST
+NUMBER OF TRADES: 43
+AVG TRADE: $2.0
+MAVG1: 25
+MAVG2: 19
+Return $21.53
+----------------
+COST
+NUMBER OF TRADES: 44
+AVG TRADE: $2.04
+MAVG1: 25
+MAVG2: 19
+Return $21.61
+----------------
+COST
+NUMBER OF TRADES: 45
+AVG TRADE: $1.99
+MAVG1: 25
+MAVG2: 19
+Return $22.61
+----------------

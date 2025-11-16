@@ -1,0 +1,14 @@
+MU
+NUMBER OF TRADES: 4
+AVG TRADE: $0.04
+MAVG1: 85
+MAVG2: 146
+Return $108.97
+----------------
+MU
+NUMBER OF TRADES: 26
+AVG TRADE: $0.39
+MAVG1: 44
+MAVG2: 51
+Return $66.65
+----------------

@@ -1,0 +1,14 @@
+GME
+NUMBER OF TRADES: 15
+AVG TRADE: $0.36
+MAVG1: 91
+MAVG2: 115
+Return $41.28
+----------------
+GME
+NUMBER OF TRADES: 23
+AVG TRADE: $0.96
+MAVG1: 67
+MAVG2: 74
+Return $24.0
+----------------

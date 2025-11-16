@@ -24,7 +24,10 @@ app.use(
         credentials: true,
     })
 );
-
+app.get("/test", (req, res) => {
+    console.log("Test route hit");
+    res.send("Test OK");
+});
 /*
 Routing of API.
 */

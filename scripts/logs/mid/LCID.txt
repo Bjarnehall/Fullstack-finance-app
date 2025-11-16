@@ -1,0 +1,14 @@
+LCID
+NUMBER OF TRADES: 3
+AVG TRADE: $0.04
+MAVG1: 63
+MAVG2: 169
+Return $72.18
+----------------
+LCID
+NUMBER OF TRADES: 15
+AVG TRADE: $0.2
+MAVG1: 23
+MAVG2: 49
+Return $73.43
+----------------

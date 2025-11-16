@@ -1,0 +1,14 @@
+RBLX
+NUMBER OF TRADES: 15
+AVG TRADE: $0.34
+MAVG1: 135
+MAVG2: 142
+Return $43.92
+----------------
+RBLX
+NUMBER OF TRADES: 53
+AVG TRADE: $1.25
+MAVG1: 22
+MAVG2: 15
+Return $42.49
+----------------

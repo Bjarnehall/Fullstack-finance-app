@@ -1,0 +1,14 @@
+AMZN
+NUMBER OF TRADES: 32
+AVG TRADE: $0.77
+MAVG1: 40
+MAVG2: 30
+Return $41.33
+----------------
+AMZN
+NUMBER OF TRADES: 26
+AVG TRADE: $0.51
+MAVG1: 62
+MAVG2: 20
+Return $50.51
+----------------

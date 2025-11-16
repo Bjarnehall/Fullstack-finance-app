@@ -1,0 +1,35 @@
+ADBE
+NUMBER OF TRADES: 24
+AVG TRADE: $0.89
+MAVG1: 57
+MAVG2: 50
+Return $27.04
+----------------
+ADBE
+NUMBER OF TRADES: 24
+AVG TRADE: $0.99
+MAVG1: 58
+MAVG2: 50
+Return $24.34
+----------------
+ADBE
+NUMBER OF TRADES: 24
+AVG TRADE: $0.91
+MAVG1: 58
+MAVG2: 50
+Return $26.41
+----------------
+ADBE
+NUMBER OF TRADES: 25
+AVG TRADE: $0.93
+MAVG1: 58
+MAVG2: 50
+Return $27.02
+----------------
+ADBE
+NUMBER OF TRADES: 25
+AVG TRADE: $0.87
+MAVG1: 58
+MAVG2: 50
+Return $28.63
+----------------

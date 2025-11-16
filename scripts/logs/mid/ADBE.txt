@@ -1,0 +1,14 @@
+ADBE
+NUMBER OF TRADES: 12
+AVG TRADE: $0.28
+MAVG1: 169
+MAVG2: 162
+Return $42.23
+----------------
+ADBE
+NUMBER OF TRADES: 15
+AVG TRADE: $0.5
+MAVG1: 89
+MAVG2: 71
+Return $30.18
+----------------

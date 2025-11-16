@@ -1,0 +1,42 @@
+PLTR
+NUMBER OF TRADES: 34
+AVG TRADE: $0.74
+MAVG1: 51
+MAVG2: 57
+Return $45.84
+----------------
+PLTR
+NUMBER OF TRADES: 24
+AVG TRADE: $0.54
+MAVG1: 54
+MAVG2: 28
+Return $44.26
+----------------
+PLTR
+NUMBER OF TRADES: 31
+AVG TRADE: $0.67
+MAVG1: 39
+MAVG2: 24
+Return $46.02
+----------------
+PLTR
+NUMBER OF TRADES: 32
+AVG TRADE: $0.62
+MAVG1: 39
+MAVG2: 24
+Return $51.91
+----------------
+PLTR
+NUMBER OF TRADES: 24
+AVG TRADE: $0.47
+MAVG1: 52
+MAVG2: 25
+Return $50.93
+----------------
+PLTR
+NUMBER OF TRADES: 24
+AVG TRADE: $0.47
+MAVG1: 52
+MAVG2: 25
+Return $50.93
+----------------

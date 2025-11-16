@@ -1,0 +1,42 @@
+AAPL
+NUMBER OF TRADES: 42
+AVG TRADE: $1.17
+MAVG1: 15
+MAVG2: 21
+Return $35.88
+----------------
+AAPL
+NUMBER OF TRADES: 45
+AVG TRADE: $1.38
+MAVG1: 15
+MAVG2: 21
+Return $32.71
+----------------
+AAPL
+NUMBER OF TRADES: 46
+AVG TRADE: $1.3
+MAVG1: 15
+MAVG2: 21
+Return $35.42
+----------------
+AAPL
+NUMBER OF TRADES: 47
+AVG TRADE: $1.35
+MAVG1: 15
+MAVG2: 21
+Return $34.74
+----------------
+AAPL
+NUMBER OF TRADES: 49
+AVG TRADE: $1.41
+MAVG1: 15
+MAVG2: 21
+Return $34.68
+----------------
+AAPL
+NUMBER OF TRADES: 49
+AVG TRADE: $1.41
+MAVG1: 15
+MAVG2: 21
+Return $34.68
+----------------

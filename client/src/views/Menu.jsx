@@ -7,11 +7,11 @@ function Menu() {
     function handleLogout() {
         localStorage.removeItem("token");
         navigate("/login");
-    }
+    };
 
     function showTickers() {
         navigate("/information-tickers");
-    }
+    };
 
     return (
     <Wrapper>

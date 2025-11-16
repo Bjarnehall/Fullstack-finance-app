@@ -6,6 +6,9 @@ import CandleChart from './CandleChart';
 function DetailedTicker({ ticker }) {
 
     const [priceData, setPriceData] = useState([]);
+    const [chartUrl, setChartUrl] = useState(null);
+    const [mlChartUrl, setMlChartUrl] = useState(null);
+
     const lastFetch = useRef(0);
     const FETCH_LIMIT = 2000;
 
@@ -19,7 +22,7 @@ function DetailedTicker({ ticker }) {
         }
 
         lastFetch.current = now;
-
+        
         try {
             const response = await fetch (`http://localhost:3005/api/ticker/get/thirtymin/${ticker}`);
             const priceData = await response.json();
@@ -31,9 +34,25 @@ function DetailedTicker({ ticker }) {
         }
     }
 
+    async function fetchChart() {
+        if (!ticker) return;
+
+        const url = `http://localhost:3005/api/ticker/get/fullchart/${ticker}`;
+        setChartUrl(url)
+    }
+
+    async function fetchMlChart() {
+        if (!ticker) return;
+
+        const url = `http://localhost:3005/api/ticker/get/mlchart/${ticker}`;
+        setMlChartUrl(url)
+    }
+
     useEffect(() => {
         if (ticker) {
             fetchPrices();
+            fetchChart();
+            fetchMlChart();
         }
     }, [ticker]);
 
@@ -41,8 +60,11 @@ function DetailedTicker({ ticker }) {
         <Wrapper>
             <div className="price-chart">
                 <div className="chart">
-                    {/* <p>prices {ticker}</p> */}
-                    <CandleChart priceData={priceData} />
+                    <CandleChart priceData={priceData} tickerSymbol={ticker} />
+                </div>
+                <div className="fullchart">
+                    <img src={chartUrl}></img>
+                    <img src={mlChartUrl}></img>
                 </div>
             </div>
             <div className="extra-data">
@@ -75,9 +97,22 @@ const Wrapper = styled.section`
         height: 423px;
     }
     .chart {
-        background-color: var(--color-main-detail-mellow);
-        height: 770px;
+        height: 340px;
+        background-color: var(--color-main-dark);
     }
+    .fullchart {
+        background-color: var(--color-main-dark);
+        display: flex;
+
+    }
+    .fullchart img {
+        width: 680px;
+        margin-left: auto;
+    }
+/*     .mlchart {
+        height: 340px;
+        display: flex;
+    } */
     .data {
         background-color: var(--color-main-detail-mellow);
         margin-left: 15px;

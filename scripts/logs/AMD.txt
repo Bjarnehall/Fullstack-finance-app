@@ -1,0 +1,42 @@
+AMD
+NUMBER OF TRADES: 27
+AVG TRADE: $0.53
+MAVG1: 50
+MAVG2: 57
+Return $51.26
+----------------
+AMD
+NUMBER OF TRADES: 42
+AVG TRADE: $0.79
+MAVG1: 32
+MAVG2: 10
+Return $53.43
+----------------
+AMD
+NUMBER OF TRADES: 27
+AVG TRADE: $0.48
+MAVG1: 50
+MAVG2: 57
+Return $56.14
+----------------
+AMD
+NUMBER OF TRADES: 45
+AVG TRADE: $0.71
+MAVG1: 32
+MAVG2: 10
+Return $63.5
+----------------
+AMD
+NUMBER OF TRADES: 46
+AVG TRADE: $0.69
+MAVG1: 32
+MAVG2: 10
+Return $67.0
+----------------
+AMD
+NUMBER OF TRADES: 46
+AVG TRADE: $0.69
+MAVG1: 32
+MAVG2: 10
+Return $67.0
+----------------

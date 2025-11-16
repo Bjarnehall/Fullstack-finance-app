@@ -1,0 +1,14 @@
+SOFI
+NUMBER OF TRADES: 17
+AVG TRADE: $0.21
+MAVG1: 115
+MAVG2: 40
+Return $79.46
+----------------
+SOFI
+NUMBER OF TRADES: 38
+AVG TRADE: $0.46
+MAVG1: 35
+MAVG2: 28
+Return $83.41
+----------------

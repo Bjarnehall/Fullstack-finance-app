@@ -1,0 +1,35 @@
+NFLX
+NUMBER OF TRADES: 34
+AVG TRADE: $0.93
+MAVG1: 43
+MAVG2: 36
+Return $36.42
+----------------
+NFLX
+NUMBER OF TRADES: 39
+AVG TRADE: $1.08
+MAVG1: 43
+MAVG2: 37
+Return $35.97
+----------------
+NFLX
+NUMBER OF TRADES: 39
+AVG TRADE: $1.11
+MAVG1: 43
+MAVG2: 37
+Return $35.02
+----------------
+NFLX
+NUMBER OF TRADES: 39
+AVG TRADE: $1.18
+MAVG1: 43
+MAVG2: 37
+Return $33.1
+----------------
+NFLX
+NUMBER OF TRADES: 39
+AVG TRADE: $1.07
+MAVG1: 43
+MAVG2: 37
+Return $36.47
+----------------

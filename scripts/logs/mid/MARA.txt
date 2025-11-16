@@ -1,0 +1,14 @@
+MARA
+NUMBER OF TRADES: 25
+AVG TRADE: $0.3
+MAVG1: 55
+MAVG2: 69
+Return $84.27
+----------------
+MARA
+NUMBER OF TRADES: 25
+AVG TRADE: $0.3
+MAVG1: 55
+MAVG2: 69
+Return $84.27
+----------------

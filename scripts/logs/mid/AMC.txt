@@ -1,0 +1,14 @@
+AMC
+NUMBER OF TRADES: 24
+AVG TRADE: $0.4
+MAVG1: 50
+MAVG2: 34
+Return $60.15
+----------------
+AMC
+NUMBER OF TRADES: 24
+AVG TRADE: $0.4
+MAVG1: 50
+MAVG2: 34
+Return $60.15
+----------------

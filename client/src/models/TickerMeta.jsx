@@ -11,6 +11,7 @@ function TickerMeta({ ticker, activeTicker, setActiveTicker }) {
 
     const lastFetch = useRef(0);
     const FETCH_LIMIT = 2000;
+    
 
     async function fetchTicker() {
         const now = Date.now();

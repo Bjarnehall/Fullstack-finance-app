@@ -1,0 +1,14 @@
+BYND
+NUMBER OF TRADES: 8
+AVG TRADE: $0.02
+MAVG1: 130
+MAVG2: 67
+Return $497.62
+----------------
+BYND
+NUMBER OF TRADES: 36
+AVG TRADE: $0.07
+MAVG1: 15
+MAVG2: 24
+Return $493.22
+----------------

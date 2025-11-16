@@ -1,0 +1,14 @@
+NKE
+NUMBER OF TRADES: 7
+AVG TRADE: $0.24
+MAVG1: 134
+MAVG2: 66
+Return $28.67
+----------------
+NKE
+NUMBER OF TRADES: 39
+AVG TRADE: $1.2
+MAVG1: 16
+MAVG2: 24
+Return $32.47
+----------------

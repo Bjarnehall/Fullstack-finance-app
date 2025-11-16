@@ -19,6 +19,8 @@ function AllTickers() {
     const lastFetch = useRef(0);
     const FETCH_LIMIT = 2000;
 
+    const dashBoardRef = useRef(null);
+    const scrollPos = useRef(0);
 
     const fetchTickers = () => {
         const now = Date.now();
@@ -36,15 +38,32 @@ function AllTickers() {
             .then(data => setTickers(data));
     }
 
+    function handleSetActiveTicker(ticker) {
+      if (!activeTicker && dashBoardRef.current) {
+        scrollPos.current = dashBoardRef.current.scrollTop;
+      }
+      setActiveTicker(ticker);
+    }
+
+    useEffect(() => {
+      if (!activeTicker && dashBoardRef.current && scrollPos.current > 0) {
+        requestAnimationFrame(() => {
+          dashBoardRef.current.scrollTo(0, scrollPos.current);
+        });
+      }
+    }, [activeTicker]);
+
   useEffect(() => {
     fetchTickers();
   }, []);
 
+
+
     return (
       <Wrapper>
           <Menu />
-          <div className="information-dashboard">
-            {showTickers(tickers, activeTicker, setActiveTicker)}
+          <div ref={dashBoardRef} className="information-dashboard">
+            {showTickers(tickers, activeTicker, handleSetActiveTicker)}
           </div>
       </Wrapper>
     );

@@ -1,0 +1,35 @@
+PEP
+NUMBER OF TRADES: 39
+AVG TRADE: $2.02
+MAVG1: 21
+MAVG2: 29
+Return $19.34
+----------------
+PEP
+NUMBER OF TRADES: 42
+AVG TRADE: $2.39
+MAVG1: 21
+MAVG2: 29
+Return $17.58
+----------------
+PEP
+NUMBER OF TRADES: 52
+AVG TRADE: $3.0
+MAVG1: 22
+MAVG2: 28
+Return $17.31
+----------------
+PEP
+NUMBER OF TRADES: 52
+AVG TRADE: $3.09
+MAVG1: 22
+MAVG2: 28
+Return $16.81
+----------------
+PEP
+NUMBER OF TRADES: 63
+AVG TRADE: $3.41
+MAVG1: 23
+MAVG2: 13
+Return $18.5
+----------------

@@ -1,0 +1,7 @@
+CAT
+NUMBER OF TRADES: 21
+AVG TRADE: $0.53
+MAVG1: 46
+MAVG2: 66
+Return $39.99
+----------------

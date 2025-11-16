@@ -1,0 +1,42 @@
+META
+NUMBER OF TRADES: 16
+AVG TRADE: $0.6
+MAVG1: 53
+MAVG2: 28
+Return $26.51
+----------------
+META
+NUMBER OF TRADES: 16
+AVG TRADE: $0.59
+MAVG1: 53
+MAVG2: 28
+Return $27.12
+----------------
+META
+NUMBER OF TRADES: 20
+AVG TRADE: $0.76
+MAVG1: 53
+MAVG2: 44
+Return $26.4
+----------------
+META
+NUMBER OF TRADES: 18
+AVG TRADE: $0.64
+MAVG1: 53
+MAVG2: 29
+Return $27.99
+----------------
+META
+NUMBER OF TRADES: 18
+AVG TRADE: $0.65
+MAVG1: 53
+MAVG2: 29
+Return $27.74
+----------------
+META
+NUMBER OF TRADES: 18
+AVG TRADE: $0.65
+MAVG1: 53
+MAVG2: 29
+Return $27.74
+----------------
