@@ -14,7 +14,15 @@ function validateTicker (ticker) {
         return msg;
     }
 }
+/*
+Function to return an array of all tickers available
+*/
+function listAllTickers () {
+    const { availableTickers } = require("../variables/availableTickers.js");
+    return availableTickers;
+}
 
 module.exports = {
-    validateTicker
+    validateTicker,
+    listAllTickers
 };

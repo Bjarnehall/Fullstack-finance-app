@@ -1,33 +1,31 @@
 const { getInformation } = require("../models/information.model.js");
-const { availableTickers } = require("../variables/availableTickers.js");
+const { validateTicker, listAllTickers } = require("../helpers/checks.helper.js");
+
 /*
-Takes ticker as an argument in the url and use it with 
-the getInformation model. Returns the data to user.
+Return meta data about single ticker
 */
 const getMetaDataTicker = async (req, res) => {
     const { ticker } = req.params;
-    console.log(`api/ticker/get/information/${ticker} was called`);
+    
+    if (validateTicker(ticker) === "not-valid") {
+        return res.status(400).json("That ticker is not available");
+    }
 
-    if (availableTickers.includes(ticker)) {
-        try {
-            const data = await getInformation(ticker);
-            res.json(data);
-        } catch (error) {
-            res.status(500).json({ message: error.message});
-        }
-    } else {
-        res.status(400).json({ error: "That ticker is not available" });
+    try {
+        const data = await getInformation(ticker);
+        res.json(data.information);
+    } catch (error) {
+        res.status(500).json({ message: error.message});
     }
 };
 
 /*
-Return all tickers available in API.
+Return all tickers available
 */
 const getAvailableTickers = (req, res) => {
-    console.log("api/ticker/get/available was called");
-    res.status(200).json(availableTickers);
+    const tickers = listAllTickers();
+    res.status(200).json(tickers);
 }
-
 
 module.exports = {
     getMetaDataTicker,

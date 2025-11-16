@@ -54,55 +54,55 @@ function TickerMeta({ ticker, activeTicker, setActiveTicker }) {
             <div className="meta-wrapper" style={{ display: hidden ? "none" : "flex"}}>
             <div className="metaDash">
                 <div className="metaHead">
-                <h4>{dataMeta.information?.displayName} </h4>
+                <h4>{dataMeta?.displayName} </h4>
                 <p>Analyst Rating: 
-                    <span style={{ fontWeight: "bold" }}>{dataMeta.information?.averageAnalystRating ? dataMeta.information.averageAnalystRating.split(" - ")[1] : "No data"}</span>
+                    <span style={{ fontWeight: "bold" }}>{dataMeta?.averageAnalystRating ? dataMeta.averageAnalystRating.split(" - ")[1] : "No data"}</span>
                 </p>
                 </div>
                 <ul>
                     <li>
                         <span>{dataMeta.information?.currency}</span> 
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.bid}</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta?.bid}</span>
                     </li>
                     <li>
                         <span>50 day AVG: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.fiftyDayAverage ? dataMeta.information?.fiftyDayAverage.toFixed(2) : "No data"}</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta?.fiftyDayAverage ? dataMeta?.fiftyDayAverage.toFixed(2) : "No data"}</span>
                     </li>
                     <li>
                         <span>200 day AVG: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.twoHundredDayAverage ? dataMeta.information?.twoHundredDayAverage.toFixed(2) : "No data"}</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta?.twoHundredDayAverage ? dataMeta?.twoHundredDayAverage.toFixed(2) : "No data"}</span>
                     </li>
                     <li>
                         <span>Daily AVG Movment: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.twoHundredDayAverageChangePercent ? dataMeta.information?.twoHundredDayAverageChangePercent.toFixed(2) : "No data"} %</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta?.twoHundredDayAverageChangePercent ? dataMeta?.twoHundredDayAverageChangePercent.toFixed(2) : "No data"} %</span>
                     </li>
                     <li>
                         <span>Year to date high: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.fiftyTwoWeekHigh}</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta?.fiftyTwoWeekHigh}</span>
                     </li>
                     <li>
                         <span>Year to date low: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.fiftyTwoWeekLow}</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta?.fiftyTwoWeekLow}</span>
                     </li>
                     <li>
                         <span>Dividend yield: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.dividendYield || "No dividend"}</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta?.dividendYield || "No dividend"}</span>
                     </li>
                     <li>
                         <span>Current year P/E: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.priceEpsCurrentYear ? dataMeta.information.priceEpsCurrentYear.toFixed(2) : "No data"}</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta?.priceEpsCurrentYear ? dataMeta.priceEpsCurrentYear.toFixed(2) : "No data"}</span>
                     </li>
                     <li>
                         <span>Trailing year P/E: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.trailingPE ? dataMeta.information.trailingPE.toFixed(2) : "No data"}</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta?.trailingPE ? dataMeta.trailingPE.toFixed(2) : "No data"}</span>
                     </li>
                     <li>
                         <span>Forward year P/E: </span>
-                        <span style={{ color: "#9e876f" }}>{dataMeta.information?.forwardPE ? dataMeta.information.forwardPE.toFixed(2) : "No data"}</span>
+                        <span style={{ color: "#9e876f" }}>{dataMeta?.forwardPE ? dataMeta.forwardPE.toFixed(2) : "No data"}</span>
                     </li>
                     <li>
-                        <span>Market CAP <small>in B {dataMeta.information?.currency}: </small></span>
-                        <span style={{ color: "#9e876f" }}>{(dataMeta.information?.marketCap / 1000_000_000).toFixed(1)}</span>
+                        <span>Market CAP <small>in B {dataMeta?.currency}: </small></span>
+                        <span style={{ color: "#9e876f" }}>{(dataMeta?.marketCap / 1000_000_000).toFixed(1)}</span>
                     </li>    
                 </ul>
                 <div className="metaDash-nav">
