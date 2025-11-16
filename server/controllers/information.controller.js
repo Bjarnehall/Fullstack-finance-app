@@ -12,8 +12,8 @@ const getMetaDataTicker = async (req, res) => {
         try {
             const data = await getInformation(ticker);
             res.json(data);
-        } catch (err) {
-            res.status(500).json({ error: "Failed to get information data" });
+        } catch (error) {
+            res.status(500).json({ message: error.message});
         }
     } else {
         res.status(400).json({ error: "That ticker is not available" });

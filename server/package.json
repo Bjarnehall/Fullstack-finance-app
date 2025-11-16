@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "mocha",
-    "coverage": "c8 --include 'models/*.js' --include 'controllers/*.js' --exclude 'test/*.js' mocha",
+    "coverage": "c8 --include 'models/*.js' --include 'controllers/*.js' --include 'helpers/*.js' --exclude 'test/*.js' mocha",
     "serve": "node index.js",
     "dev": "nodemon index.js"
   },

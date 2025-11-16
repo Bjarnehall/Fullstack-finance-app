@@ -32,7 +32,7 @@ const createUser = async (req, res) => {
     const { email, password } = req.body;
 
     try {
-        findUser = await User.findOne({ email });
+        let findUser = await User.findOne({ email });
         if (findUser) {
             return res.status(400).json({ message: "Email is already used" });
         }
@@ -61,7 +61,7 @@ const updateUser = async (req, res) => {
 
         const updatedUser = await User.findById(id);
         res.status(200).json(updatedUser);
-    } catch {
+    } catch (error) {
         res.status(500).json({message: error.message});
     }
 };
@@ -76,7 +76,7 @@ const deleteUser = async (req, res) => {
         }
 
         res.status(200).json({message: "User deleted"});
-    } catch {
+    } catch (error) {
         res.status(500).json({message: error.message});
     }
 };
