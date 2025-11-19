@@ -1,7 +1,0 @@
-UBER
-NUMBER OF TRADES: 40
-AVG TRADE: $0.75
-MAVG1: 32
-MAVG2: 23
-Return $53.57
-----------------

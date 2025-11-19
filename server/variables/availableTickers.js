@@ -21,7 +21,7 @@ const availableTickers = [
   "PFE",       // PFIZER
 /*   "O",         // REALTY INCOME REIT */
 /*   "NEON",      // NEONODE */
-  "NFLX",      // NETFLIX
+  /* "NFLX",      // NETFLIX */
   "AVGO",      // BROADCOM
   "TTWO",      // TAKE-TWO INTERACTIVE SOFTWARE
   "BABA",      // ALIBABA GROUP ADR
@@ -49,7 +49,7 @@ const availableTickers = [
   "MARA",      // MARA HOLDINGS
   "XOM",       // EXXON MOBIL
   "ASML",      // ASML HOLDING
-  "SONY",      // SONY ADR
+  /* "SONY",      // SONY ADR */
  /*  "PLUG",      // PLUG POWER */
   "CRWD",      // CROWDSTRIKE
   "SBUX",      // STARBUCKS

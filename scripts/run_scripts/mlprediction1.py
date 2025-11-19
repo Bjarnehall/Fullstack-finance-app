@@ -9,9 +9,6 @@ from sklearn.ensemble import RandomForestRegressor
 import matplotlib.dates as mdates
 API_URL = "http://localhost:3005/api/ticker"
 
-# -------------------------
-# ML Functions
-# -------------------------
 def predict_future_closes(df, n=7):
     if df.empty:
         return []
@@ -37,11 +34,9 @@ def save_chart_to_api(ticker, df_hist, future_preds):
     plt.style.use("dark_background")
     plt.figure(figsize=(12,6), facecolor="#0d0d0d")
 
-    # Use datetime for x-axis
     hist_dates = df_hist['datetime']
     last_date = hist_dates.iloc[-1]
 
-    # Generate future timestamps assuming 30-min intervals
     pred_dates = pd.date_range(start=last_date, periods=len(future_preds)+1, freq='30min')[1:]
 
     plt.plot(hist_dates, df_hist['close'], label='Actual close', color='yellow', linewidth=2)
@@ -51,14 +46,10 @@ def save_chart_to_api(ticker, df_hist, future_preds):
     plt.legend()
 
 
-    #plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M'))
-    #plt.gca().xaxis.set_major_locator(mdates.AutoDateLocator())
-
     ax = plt.gca()
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M'))
     ax.xaxis.set_major_locator(mdates.AutoDateLocator())
 
-    # Skip every other label for readability
     for i, label in enumerate(ax.get_xticklabels()):
         if i % 2 != 0:
             label.set_visible(False)
@@ -85,9 +76,7 @@ def save_chart_to_api(ticker, df_hist, future_preds):
     except Exception as e:
         print(f"{ticker} - Exception during POST:", e)
 
-# -------------------------
-# Data Fetch Functions
-# -------------------------
+
 def get_available_tickers():
     try:
         return requests.get(f"{API_URL}/get/available", timeout=10).json()
@@ -102,9 +91,7 @@ def get_thirtymin_ticker(ticker):
         print(f"Failed to fetch 30min data for {ticker}:", e)
         return []
 
-# -------------------------
-# Main loop
-# -------------------------
+
 tickers = get_available_tickers()
 print("Tickers found:", tickers)
 
@@ -124,9 +111,8 @@ while True:
 
         save_chart_to_api(ticker, df_hist, future_preds)
 
-        # Optional: sleep a little between tickers to avoid API overload
-        time.sleep(random.randint(10, 30))
 
-    # Optional: sleep longer between full loops
+        time.sleep(random.randint(140, 380))
+
     print("Completed one full pass of all tickers. Sleeping before next pass...")
-    time.sleep(random.randint(300, 600))
+    time.sleep(random.randint(2600, 3600))

@@ -5,9 +5,10 @@
 }
 
 :root {
-    --color-main: rgb(16, 17, 24);
-    --color-main-dark: rgb(0, 0, 0);
-    --color-main-light: #050611;
+    --color-main: #585858;
+    --color-main-dark: #141820;
+    --color-second-main: #090c09;
+    --color-main-light: #111111;
     --color-main-lighter: #707070;
     --color-main-detail: rgb(255, 255, 10);
     --color-main-detail-mellow: #1f2431;
@@ -25,5 +26,5 @@ html {
 }
 
 body {
-  background-color: var(--color-main);
+  background-color: var(--color-second-main);
 }

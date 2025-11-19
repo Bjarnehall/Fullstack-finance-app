@@ -1,3 +1,4 @@
 .env
 keys.js
-
+/server/charts/*
+/scripts/logs/*

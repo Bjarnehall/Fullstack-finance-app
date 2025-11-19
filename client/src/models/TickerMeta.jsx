@@ -60,8 +60,8 @@ function TickerMeta({ ticker, activeTicker, setActiveTicker }) {
                 </p>
                 </div>
                 <ul>
-                    <li>
-                        <span>{dataMeta.information?.currency}</span> 
+                    <li>    
+                        <span>Bid</span>
                         <span style={{ color: "#9e876f" }}>{dataMeta?.bid}</span>
                     </li>
                     <li>

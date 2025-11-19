@@ -106,7 +106,7 @@ const Wrapper = styled.section`
 
     }
     .fullchart img {
-        width: 680px;
+        width: 50%;
         margin-left: auto;
     }
 /*     .mlchart {

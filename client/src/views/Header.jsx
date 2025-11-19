@@ -1,7 +1,7 @@
 import {useState, useEffect } from "react";
 import styled from 'styled-components';
 
-const colorCat = "#333333";
+const colorCat = "#585858";
 const colorEye = "yellow";
 
 function Cat ({ viewBox }) {

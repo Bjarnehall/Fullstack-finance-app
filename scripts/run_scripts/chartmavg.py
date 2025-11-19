@@ -11,16 +11,16 @@ import numpy as np
 API_URL = "http://localhost:3005/api/ticker"
 
 pairs = [
-        ["NVDA", 89, 41],
-        ["TSLA", 31, 22],
-        ["AAPL", 15, 21],
-        ["MSFT", 40, 33],
-        ["AMZN", 42, 28],
-        ["AMD", 51, 56],
-        ["GOOG", 18, 57],
-        ["PLTR", 51, 57],
-        ["META", 53, 28],
-        ["TSM", 17, 54],
+        ["NVDA", 92, 46],
+        ["TSLA", 20, 54],
+        ["AAPL", 37, 63],
+        ["MSFT", 88, 77],
+        ["AMZN", 62, 20],
+        ["AMD", 28, 19],
+        ["GOOG", 23, 107],
+        ["PLTR", 79, 32],
+        ["META", 53, 29],
+        ["TSM", 102, 94],
         ["KLAR", 43, 55],
         ["KO", 35, 13],
         ["GME", 10, 38],
@@ -28,9 +28,8 @@ pairs = [
         ["SPOT", 59, 38],
         ["AMC", 50, 34],
         ["PFE", 21, 26],
-        ["NFLX", 42, 37],
         ["AVGO", 40, 53],
-        ["TTWO", 59, 51],
+        ["TTWO", 93, 44],
         ["BABA", 31, 10],
         ["XPEV", 20, 11],
         ["MU", 10, 27],
@@ -47,10 +46,10 @@ pairs = [
         ["NKE", 10, 15],
         ["LCID", 12, 17],
         ["WMT", 35, 42],
-        ["T", 77, 83],
+        ["T", 25, 103],
         ["MARA", 39, 10],
         ["XOM", 78, 73],
-        ["SONY", 28, 16],
+        ["ASML", 16, 44],
         ["CRWD", 26, 11],
         ["SBUX", 87, 74],
         ["ABCL", 94, 63],
@@ -62,7 +61,7 @@ pairs = [
         ["SHOP", 96, 90],
         ["UBER", 32, 23],
         ["CAT", 46, 66],
-        ["COST", 24, 19],
+        ["COST", 26, 18],
     ]
 
 def get_available_tickers():
@@ -135,5 +134,5 @@ while True:
         response = requests.post(f"{API_URL}/save/pricechart/{ticker}", json=payload)
 
         print(response.json())
-        time.sleep(random.randint(60, 120))
-    time.sleep(random.randint(500, 900))
+        time.sleep(random.randint(120, 280))
+    time.sleep(random.randint(2600, 3600))

@@ -53,7 +53,7 @@ Takes ticker, timeframe, startDate and API key and get pricedata from Twelvedata
 API and returnsa json response. 
 */
 function getTwelveData(ticker, timeframe, startDate, key) {
-	return new Promise((resolve) => {
+	return new Promise((resolve, reject) => {
 		const options = {
 			"method": "GET",
 			"hostname": "api.twelvedata.com",

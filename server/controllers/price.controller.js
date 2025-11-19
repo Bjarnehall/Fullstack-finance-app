@@ -46,53 +46,39 @@ const getThirtyMinPrices = async (req, res) => {
 	}
 };
 
-const fs = require("fs");
 const path = require("path");
+const { saveImagePng } = require("../models/chart.model.js");
 
-const savePriceChart = (req, res) => {
+const savePriceChart =  async (req, res) => {
 	const { ticker } = req.params;
 	const { image } = req.body;
 
-	const chartDir = path.join(__dirname, "../charts");
-
-	const fileName = `${ticker}-fullchart.png`;
-	const filePath = path.join(chartDir, fileName);
-
-	const imageBuffer = Buffer.from(image, "base64");
-
-    fs.writeFile(filePath, imageBuffer, (err) => {
-        if (err) {
-            console.error(err);
-            return res.status(500).json({ error: "Failed to save chart" });
-        }
-        return res.json({ success: true, path: filePath });
-    });
+	try {
+		const filePath = await saveImagePng(image, "../charts/fullcharts", `${ticker}-fullchart`);
+		return res.json({ success: true, path: filePath });
+	} catch (err) {
+		console.error(err);
+		return res.status(500).json({ error: "Failed to save chart" });
+	}
 };
 
-const saveMlChart = (req, res) => {
+const saveMlChart = async (req, res) => {
 	const { ticker } = req.params;
 	const { image } = req.body;
 
-	const chartDir = path.join(__dirname, "../charts/ml");
-
-	const fileName = `${ticker}-mlchart.png`;
-	const filePath = path.join(chartDir, fileName);
-
-	const imageBuffer = Buffer.from(image, "base64");
-
-    fs.writeFile(filePath, imageBuffer, (err) => {
-        if (err) {
-            console.error(err);
-            return res.status(500).json({ error: "Failed to save chart" });
-        }
-        return res.json({ success: true, path: filePath });
-    });
+	try {
+		const filePath = await saveImagePng(image, "../charts/ml", `${ticker}-mlchart`);
+		return res.json({ success: true, path: filePath });
+	} catch (err) {
+		console.error(err);
+		return res.status(500).json({ error: "Failed to save chart" });
+	}
 };
 
 const getFullChart = (req, res) => {
 	const { ticker } = req.params;
 
-	const chartDir = path.join(__dirname, "../charts");
+	const chartDir = path.join(__dirname, "../charts/fullcharts");
 	const fileName = `${ticker}-fullchart.png`;
 	const filePath = path.join(chartDir, fileName);
 

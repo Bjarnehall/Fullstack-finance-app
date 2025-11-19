@@ -1,7 +1,0 @@
-COST
-NUMBER OF TRADES: 45
-AVG TRADE: $2.24
-MAVG1: 24
-MAVG2: 17
-Return $20.13
-----------------

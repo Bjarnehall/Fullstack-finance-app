@@ -76,7 +76,7 @@ const Wrapper = styled.section`
         flex-wrap: wrap;
         max-width: 100%;
         height: 94vh;
-        background-color: var(--color-main);
+        background-color: var(--color-second-main);
         padding: 1rem;
         overflow-y: auto;
     }

@@ -25,7 +25,7 @@ def calculate_mavg(prices, period):
 
 def test_mavg_combinations(ticker, data):
     closes = [candle['close'] for candle in data]
-    periods = list(range(15, 90))
+    periods = list(range(15, 110))
     results = []
 
     def simulate_crossover(short_mavg, long_mavg, closes_segment):
@@ -62,7 +62,7 @@ def test_mavg_combinations(ticker, data):
 
     for p1 in periods:
         for p2 in periods:
-            if p1 == p2 or abs(p1 - p2) < 7:
+            if p1 == p2 or abs(p1 - p2) < 8:
                 continue
 
             short_mavg = calculate_mavg(closes, p1)
@@ -94,7 +94,7 @@ while True:
         url_thirty_min = f"{API_URL}/thirtymin/{ticker}"
         data = get_thirtymin_ticker(url_thirty_min, ticker)
         test_mavg_combinations(ticker, data)
-        time.sleep(random.randint(10, 60))
+        time.sleep(random.randint(180, 260))
 
     break
 

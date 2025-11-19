@@ -33,11 +33,11 @@ const Wrapper = styled.section`
     button {
         text-transform: capitalize;
         font-weight: bold;
-        color: var(--color-main);
+        color: #9c9c9c;
         width: 100%;
         padding: 0.375rem 0.75rem;
-        margin-bottom: 0.75rem;
-        background-color: #ffff00;
+        margin-top: 0.25rem;
+        background-color: #141414;
         border: none;
     }
     button:hover {
