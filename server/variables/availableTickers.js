@@ -14,7 +14,7 @@ const availableTickers = [
   "TSM",       // TAIWAN SEMICONDUCTOR MFG CO
   "KLAR",      // KLARNA GROUP
   "KO",        // COCA-COLA
-  "GME",       // GAMESTOP
+  /* "GME",       // GAMESTOP */
   "INTC",      // INTEL
   "SPOT",      // SPOTIFY
   "AMC",       // AMC ENTERTAINMENT
