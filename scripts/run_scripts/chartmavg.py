@@ -133,5 +133,5 @@ while True:
         response = requests.post(f"{API_URL}/save/pricechart/{ticker}", json=payload)
 
         print(response.json())
-        time.sleep(random.randint(100, 390))
+        time.sleep(random.randint(100, 490))
     time.sleep(random.randint(1200, 3100))

@@ -112,7 +112,7 @@ while True:
         save_chart_to_api(ticker, df_hist, future_preds)
 
 
-        time.sleep(random.randint(100, 400))
+        time.sleep(random.randint(120, 500))
 
     print("Completed one full pass of all tickers. Sleeping before next pass...")
     time.sleep(random.randint(1100, 3100))
