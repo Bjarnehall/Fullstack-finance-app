@@ -1,9 +1,12 @@
 const Ticker = require("../schemas/ticker.schema.js");
 const yahooFinance = require("yahoo-finance2").default;
+const { yhApiRandomTimeLimit, yhApiQouteRequestLogMsg } = require("../helpers/rateLimit.helper.js");
 yahooFinance.suppressNotices(['yahooSurvey']);
 
+
 /*
-Get fincance meta data from ticker.
+Use Yahoofinance API to get 'qoute' data on given ticker.
+Return data on ticker.
 */
 async function getFinanceData (ticker) {
     const quote = await yahooFinance.quote(ticker);
@@ -20,12 +23,20 @@ Return data
 async function getInformation(ticker) {
     try {
         const now = new Date();
-        // Limit the time for updates (4 hours) 
-        const limitUpdateTime = 4 * 60 * 60 * 1000;
+        
+        // Limit the time for updates (1 -> 4 hours)
+       //const hoursMultiply = Math.floor(Math.random() * 4) + 1;
+        //const limitUpdateTime = hoursMultiply * 60 * 60 * 1000;
+
+        let rateLimit = yhApiRandomTimeLimit();
+
         let financeData = await Ticker.findOne({ 'information.symbol': ticker });
 
-        if (!financeData || (now - financeData.informationDate) > limitUpdateTime) {
+        if (!financeData || (now - financeData.informationDate) > rateLimit) {
             const newData = await getFinanceData(ticker);
+
+            // Log api calls to yahoo finance
+            yhApiQouteRequestLogMsg(newData, now);
 
             if (financeData) {
                 financeData.information = newData;

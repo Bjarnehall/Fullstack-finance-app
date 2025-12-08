@@ -63,8 +63,12 @@ function DetailedTicker({ ticker }) {
                     <CandleChart priceData={priceData} tickerSymbol={ticker} />
                 </div>
                 <div className="fullchart">
-                    <img src={chartUrl}></img>
-                    <img src={mlChartUrl}></img>
+                    <div className="left">
+                        <img src={chartUrl}></img>
+                    </div>   
+                    <div className="right">
+                        <img src={mlChartUrl}></img> 
+                    </div>                 
                 </div>
             </div>
             <div className="extra-data">
@@ -85,39 +89,54 @@ const Wrapper = styled.section`
         margin: 7px;
         padding: 15px;
         text-shadow: 1px 1px black;
-        border-radius: 5px;
+        border-top-right-radius: 15px;
         margin-left: -14px;
     }
     .extra-data {
         margin-top: -430px;
-        margin-left: -267px;
+        margin-left: -252px;
         color: var(--color-font-highlight);
-        background-color: var(--color-main-light);
-        width: 260px;
-        height: 423px;
+        width: 230px;
+        height: 430px;
+        padding: 15px;
     }
     .chart {
-        height: 340px;
+        height: 345px;
         background-color: var(--color-main-dark);
+        
     }
+
+    .chart {
+        border-radius: 15px;
+    }
+
     .fullchart {
         background-color: var(--color-main-dark);
         display: flex;
+        border-bottom-right-radius: 15px;
 
     }
-    .fullchart img {
-        width: 50%;
-        margin-left: auto;
+
+    .right img {
+        border-bottom-right-radius: 15px;
+        width: 94%;
+        height: 99%;
+        margin-left: 40px;
     }
-/*     .mlchart {
-        height: 340px;
-        display: flex;
-    } */
+
+    .left img {
+        width: 105%;
+        height: 99%;
+        margin-bottom: -4px;
+        margin-left: 5px;
+    }
     .data {
-        background-color: var(--color-main-detail-mellow);
-        margin-left: 15px;
+        margin-left: -15px;
+        margin-top: -35px;
         width: 230px;
-        height: 407px;
+        height: 428px;
+        background-color: #111;
+        border-bottom-left-radius: 5px;
     }
 `;
 

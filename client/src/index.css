@@ -5,13 +5,13 @@
 }
 
 :root {
-    --color-main: #585858;
-    --color-main-dark: #141820;
+    --color-main: #794a4a;
+    --color-main-dark: #02102c;
     --color-second-main: #090c09;
-    --color-main-light: #111111;
+    --color-main-light: #05050598;
     --color-main-lighter: #707070;
-    --color-main-detail: rgb(255, 255, 10);
-    --color-main-detail-mellow: #1f2431;
+    --color-main-detail: rgb(169, 255, 10);
+    --color-main-detail-mellow: #000000;
     --color-font-main: #ffffff;
     --color-font-highlight: #9BBDDF;
     --color-light-border: rgb(66, 66, 66);

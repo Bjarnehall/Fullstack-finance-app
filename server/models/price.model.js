@@ -87,17 +87,19 @@ twelvedata API. Populate empty document with 100 days of 30 min data.
 Return prices.
 */
 async function populateNewPrices (tickerDoc, ticker) {
-	const startDate = startDateDays(100);
+	const startDate = startDateDays(200);
 
 	const getPriceData = await getTwelveData(ticker, timeframe, startDate, key);
 
 	if (!getPriceData.values) {
 		return { success: false, error: "Could not fetch new price data to store new prices" };
 	}
+	console.log(getPriceData)
 
 	const prices = formatPriceData(getPriceData)
 		.sort((a, b) => a.datetime - b.datetime);
 
+	console.log(prices)
 	tickerDoc.thirtyMinPrices = prices;
 	tickerDoc.thirtyMinPricesDate = new Date();
 	await tickerDoc.save();
@@ -121,9 +123,11 @@ async function updatePrices (tickerDoc, ticker) {
 		return { success: true, sortedUnique: tickerDoc.thirtyMinPrices };
 	}
 
+	console.log(getPricesData)
 	const newPrices = formatPriceData(getPricesData)
 		.sort((a, b) => a.datetime - b.datetime);
 
+		console.log(newPrices)
 		const filteredNewPrices = newPrices.filter(p => p.datetime > lastPrice.datetime);
 
 		const now = new Date();
@@ -157,5 +161,6 @@ module.exports = {
     getTwelveData,
 	checkIfPricesUpToDate,
 	populateNewPrices,
-	updatePrices
+	updatePrices,
+	formatPriceData
 };

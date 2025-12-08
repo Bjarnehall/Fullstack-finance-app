@@ -11,7 +11,7 @@ const {
 } = require("../helpers/checks.helper.js");
 
 
-describe("find ticker in db", function () {
+describe("*findTicker* Use to find ticker in db", function () {
 
     this.timeout(20000);
 
@@ -24,12 +24,21 @@ describe("find ticker in db", function () {
     });
 
     it("Check if all tickers used by system is in database", async function () {
+
         let tickers = listAllTickers();
-        let storedSymbols = [];
-        for (let i = 0; i < tickers.length; i++) {
-            let document = await findTicker(tickers[i]);
-            storedSymbols.push(document.information.symbol);
+        let promises = [];
+
+        for(let i = 0; i < tickers.length; i++) {
+            promises.push(findTicker(tickers[i]));
         }
+
+        let documents = await Promise.all(promises);
+        let storedSymbols = [];
+        
+        for (let i = 0; i < documents.length; i++) {
+            storedSymbols.push(documents[i].information.symbol);
+        }
+
         expect(storedSymbols).to.deep.equal(tickers);
     });
 });

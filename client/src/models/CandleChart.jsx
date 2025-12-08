@@ -50,7 +50,7 @@ function renderCandles(data, chartWidth, chartHeight, signals) {
         {i >= 16 && i % 16 === 0 && (
         <text
             x={x + candleWidth / 2}
-            y={chartHeight -5}
+            y={chartHeight -15}
             fontSize="10"
             fill="white"
             textAnchor="middle"
@@ -84,21 +84,6 @@ function renderCandles(data, chartWidth, chartHeight, signals) {
             />
         );
         })}
-        {/* Last Signal Display */}
-        {signals.length > 0 && (() => {
-            const lastSignal = signals[signals.length - 1];
-            return (
-                <text
-                    x={70}
-                    y={58}
-                    fontSize="20"
-                    fill={lastSignal.type === 'BUY' ? '#48a10c' : '#ff6a56'}
-                    
-                >
-                    {lastSignal.type} :  {lastSignal.price.toFixed(2)}
-                </text>
-            );
-        })()}
         {pricesToShow.map((price, idx) => {
         const y = priceToY(price);
         return (
@@ -269,8 +254,8 @@ function CandleChart({ priceData , tickerSymbol}) {
                 <rect width="0.2px" height="95%" x="76.25%" fill ="#ffffff3b" />
                 <rect width="0.2px" height="95%" x="88%" fill ="#ffffff3b" />
                 {renderCandles(shortTermData, 1345, 320, signals)}
-                <rect width="100%" height="5%" fill="#0c0e11" />
-                <rect width="100%" height="4%"  y="96%" fill="#0c0e11" />
+                <rect width="100%" height="5%" fill="#0b3366" />
+                <rect width="100%" height="8%"  y="92%" fill="#0b3366" />
             </svg>
         </Wrapper>
     );

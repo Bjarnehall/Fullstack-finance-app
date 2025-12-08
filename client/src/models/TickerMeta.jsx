@@ -129,11 +129,12 @@ const Wrapper = styled.section`
         width: 260px;
         margin: 7px;
         padding: 15px;
-        text-shadow: 1px 1px black;
+        color: #fff;
+        text-shadow: 0.35px 0.35px limegreen;
         border-radius: 5px;
     }
     .metaHead {
-        color: #fff;
+        
         font-size: 0.85em;
         background-color: var(--color-main-detail-mellow);
         padding: 7px;

@@ -98,8 +98,20 @@ print("Tickers found:", tickers)
 while True:
     for ticker in tickers:
         print(f"Processing {ticker}...")
+        #data = get_thirtymin_ticker(ticker)
+        #if not data:
+            #continue
         data = get_thirtymin_ticker(ticker)
+
+        # Ensure data is always a list of records
+        if isinstance(data, dict):
+            data = [data]
+        elif not isinstance(data, list):
+            print(f"{ticker} - Unexpected data format:", data)
+            continue
+
         if not data:
+            print(f"{ticker} - No data returned.")
             continue
 
         df = pd.DataFrame(data)
@@ -115,4 +127,4 @@ while True:
         time.sleep(random.randint(120, 500))
 
     print("Completed one full pass of all tickers. Sleeping before next pass...")
-    time.sleep(random.randint(1100, 3100))
+    time.sleep(random.randint(1100, 2400))

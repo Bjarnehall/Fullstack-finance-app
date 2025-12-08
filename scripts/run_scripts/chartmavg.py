@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-
+# DENNNA ÄR RÄTT
 API_URL = "http://localhost:3005/api/ticker"
 
 pairs = [
@@ -21,7 +21,6 @@ pairs = [
         ["PLTR", 79, 32],
         ["META", 53, 29],
         ["TSM", 102, 94],
-        ["KLAR", 99, 44],
         ["KO", 27, 16],
         ["INTC", 71, 95],
         ["SPOT", 59, 38],
@@ -133,5 +132,6 @@ while True:
         response = requests.post(f"{API_URL}/save/pricechart/{ticker}", json=payload)
 
         print(response.json())
-        time.sleep(random.randint(100, 490))
+        time.sleep(random.randint(100, 390))
+        
     time.sleep(random.randint(1200, 3100))

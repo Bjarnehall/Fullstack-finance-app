@@ -1,13 +1,14 @@
+// Unit tests for check.helper.js
+
+// Dependencies
 const { expect } = require('chai');
 const { describe, it } = require('mocha');
-const {
-    validateTicker,
-    listAllTickers
-} = require('../helpers/checks.helper');
-/*
-Unit tests for check.helper.js
-*/
-describe("validate ticker is in set", function () {
+
+// Import functions
+const { validateTicker, listAllTickers } = require('../helpers/checks.helper');
+
+
+describe("*validateTicker* use to see if ticker is in set", function () {
     it("return 'valid' if ticker in set", function () {
         const tickerInSet = validateTicker("AAPL")
         expect(tickerInSet).to.equal("valid");
@@ -18,7 +19,7 @@ describe("validate ticker is in set", function () {
     });
 });
 
-describe("Available tickers is an array of tickers", function () {
+describe("*listAllTickers* use to return tickers", function () {
     it("return an array", function () {
         const tickers = listAllTickers();
         expect(tickers).to.be.an("array");
