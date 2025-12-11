@@ -25,7 +25,7 @@ function TickerMeta({ ticker, activeTicker, setActiveTicker }) {
         lastFetch.current = now;
 
         try {
-            const response = await fetch (`http://localhost:3005/api/ticker/get/information/${ticker}`);
+            const response = await fetch (`http://localhost:3006/api/ticker/get/information/${ticker}`);
             const dataMeta = await response.json();
             setTickerMeta(dataMeta);
             console.log(dataMeta);

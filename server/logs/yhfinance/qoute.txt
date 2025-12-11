@@ -2598,3 +2598,3271 @@ Call qoute on yfinance: COST
 Bid: 891
 Time:Mon Dec 08 2025 20:49:02 GMT+0100 (Central European Standard Time)
 
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 09:40:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 09:40:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 182.63
+Time:Tue Dec 09 2025 09:40:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 09:40:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 09:40:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 09:40:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 663.02
+Time:Tue Dec 09 2025 09:40:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 09:40:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 0
+Time:Tue Dec 09 2025 09:40:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 0
+Time:Tue Dec 09 2025 09:40:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Tue Dec 09 2025 09:40:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 0
+Time:Tue Dec 09 2025 09:40:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 09:40:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 09:40:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.3
+Time:Tue Dec 09 2025 09:40:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Tue Dec 09 2025 09:40:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 09:40:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 09:40:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 0
+Time:Tue Dec 09 2025 09:40:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 28.85
+Time:Tue Dec 09 2025 09:40:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.31
+Time:Tue Dec 09 2025 09:40:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 09:40:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 09:40:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 09:40:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 09:40:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 09:40:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 0
+Time:Tue Dec 09 2025 09:40:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Tue Dec 09 2025 09:40:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 0
+Time:Tue Dec 09 2025 09:40:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 0
+Time:Tue Dec 09 2025 09:40:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 0
+Time:Tue Dec 09 2025 09:40:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 0
+Time:Tue Dec 09 2025 09:40:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 09:40:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 09:40:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 0
+Time:Tue Dec 09 2025 09:40:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 09:40:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 09:40:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 09:40:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 09:40:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 0
+Time:Tue Dec 09 2025 09:40:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 0
+Time:Tue Dec 09 2025 09:40:15 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 09:40:15 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 0
+Time:Tue Dec 09 2025 09:47:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 09:47:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 09:47:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 09:47:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 09:47:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 09:47:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 0
+Time:Tue Dec 09 2025 09:47:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 09:47:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 09:47:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 09:47:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 09:47:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 0
+Time:Tue Dec 09 2025 09:47:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 09:48:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 09:48:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Tue Dec 09 2025 09:48:56 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 09:48:56 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 09:48:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 09:48:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 09:48:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 10:02:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 10:02:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 182.63
+Time:Tue Dec 09 2025 10:02:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 10:02:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 10:02:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 10:02:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 663.02
+Time:Tue Dec 09 2025 10:02:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 0
+Time:Tue Dec 09 2025 10:02:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Tue Dec 09 2025 10:02:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.3
+Time:Tue Dec 09 2025 10:02:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 0
+Time:Tue Dec 09 2025 10:02:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 0
+Time:Tue Dec 09 2025 10:02:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 10:02:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 10:02:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 10:02:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 0
+Time:Tue Dec 09 2025 10:02:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 10:02:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 10:02:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 10:02:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 28.85
+Time:Tue Dec 09 2025 10:02:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Tue Dec 09 2025 10:02:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 10:02:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 0
+Time:Tue Dec 09 2025 10:02:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 10:02:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 0
+Time:Tue Dec 09 2025 10:02:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 10:02:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 10:02:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 0
+Time:Tue Dec 09 2025 10:02:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 10:02:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 0
+Time:Tue Dec 09 2025 10:02:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 10:02:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 0
+Time:Tue Dec 09 2025 10:02:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 10:02:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 0
+Time:Tue Dec 09 2025 10:02:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 182.63
+Time:Tue Dec 09 2025 10:04:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 10:04:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.31
+Time:Tue Dec 09 2025 10:04:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 0
+Time:Tue Dec 09 2025 10:04:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 0
+Time:Tue Dec 09 2025 10:04:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 10:04:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 10:06:43 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 10:06:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 10:06:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 10:06:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 10:06:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 10:06:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 10:06:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Tue Dec 09 2025 10:06:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 10:13:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 10:13:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 10:13:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 10:13:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 10:13:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 10:13:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Tue Dec 09 2025 10:13:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 10:13:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 10:13:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 10:13:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 0
+Time:Tue Dec 09 2025 10:13:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 0
+Time:Tue Dec 09 2025 10:14:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 10:14:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.3
+Time:Tue Dec 09 2025 10:14:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Tue Dec 09 2025 10:14:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 10:14:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 10:14:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 28.85
+Time:Tue Dec 09 2025 10:14:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Tue Dec 09 2025 10:14:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 0
+Time:Tue Dec 09 2025 10:14:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 0
+Time:Tue Dec 09 2025 10:14:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 0
+Time:Tue Dec 09 2025 10:14:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 0
+Time:Tue Dec 09 2025 10:14:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 0
+Time:Tue Dec 09 2025 10:14:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 10:14:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 0
+Time:Tue Dec 09 2025 10:14:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 0
+Time:Tue Dec 09 2025 10:14:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 10:14:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 10:14:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 10:14:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 0
+Time:Tue Dec 09 2025 10:14:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 10:14:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 10:14:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 663.02
+Time:Tue Dec 09 2025 10:15:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 10:15:21 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 0
+Time:Tue Dec 09 2025 10:15:23 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 0
+Time:Tue Dec 09 2025 10:15:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 10:15:41 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 10:15:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 10:15:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 10:30:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 182.63
+Time:Tue Dec 09 2025 10:37:43 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 10:37:43 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 663.02
+Time:Tue Dec 09 2025 10:37:45 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 10:37:45 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 0
+Time:Tue Dec 09 2025 10:37:45 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 10:37:43 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 10:37:43 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 10:37:43 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 0
+Time:Tue Dec 09 2025 10:37:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.3
+Time:Tue Dec 09 2025 10:37:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Tue Dec 09 2025 10:37:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 10:37:46 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 10:37:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 0
+Time:Tue Dec 09 2025 10:37:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 10:37:46 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.31
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 326.58
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 28.85
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 10:37:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 0
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 63.64
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 0
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 0
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 0
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 170.02
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 0
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 0
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 10:37:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 10:39:33 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 182.63
+Time:Tue Dec 09 2025 10:50:55 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 10:50:55 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 10:50:55 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 10:50:55 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 10:50:56 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.3
+Time:Tue Dec 09 2025 10:50:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Tue Dec 09 2025 10:50:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 0
+Time:Tue Dec 09 2025 10:50:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 10:50:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 10:50:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 10:50:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 10:50:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 663.02
+Time:Tue Dec 09 2025 10:50:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 10:50:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 0
+Time:Tue Dec 09 2025 10:50:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Tue Dec 09 2025 10:50:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 0
+Time:Tue Dec 09 2025 10:50:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 28.85
+Time:Tue Dec 09 2025 10:50:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 0
+Time:Tue Dec 09 2025 10:50:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 0
+Time:Tue Dec 09 2025 10:50:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 0
+Time:Tue Dec 09 2025 10:50:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 10:50:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 10:50:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 0
+Time:Tue Dec 09 2025 10:50:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 591.73
+Time:Tue Dec 09 2025 10:50:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 10:50:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 10:50:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 10:50:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 10:51:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Tue Dec 09 2025 10:51:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.31
+Time:Tue Dec 09 2025 10:51:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 10:51:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 170.02
+Time:Tue Dec 09 2025 10:51:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 10:51:13 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 10:53:21 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 10:53:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 10:53:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 182.63
+Time:Tue Dec 09 2025 11:17:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 11:17:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 11:17:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 11:17:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 11:17:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 11:17:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 11:17:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 11:17:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.3
+Time:Tue Dec 09 2025 11:17:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.8
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.33
+Time:Tue Dec 09 2025 11:17:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 0
+Time:Tue Dec 09 2025 11:17:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 326.58
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.31
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 663.02
+Time:Tue Dec 09 2025 11:17:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 28.85
+Time:Tue Dec 09 2025 11:17:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1052
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 0
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 0
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 63.64
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 0
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 170.02
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 0
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 591.73
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 11:17:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 182.63
+Time:Tue Dec 09 2025 12:11:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 12:11:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 12:11:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 12:11:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 12:11:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 12:11:32 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 12:11:32 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 663.02
+Time:Tue Dec 09 2025 12:11:32 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 0
+Time:Tue Dec 09 2025 12:11:33 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 12:11:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.3
+Time:Tue Dec 09 2025 12:11:34 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Tue Dec 09 2025 12:11:34 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.82
+Time:Tue Dec 09 2025 12:11:34 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.33
+Time:Tue Dec 09 2025 12:11:33 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 12:11:35 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 12:11:35 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 12:11:35 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Tue Dec 09 2025 12:11:35 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 12:11:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 12:11:35 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 12:11:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 326.58
+Time:Tue Dec 09 2025 12:11:36 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 28.85
+Time:Tue Dec 09 2025 12:11:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 12:11:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Tue Dec 09 2025 12:11:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 12:11:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1052
+Time:Tue Dec 09 2025 12:11:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 63.57
+Time:Tue Dec 09 2025 12:11:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 0
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 0
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 116
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.31
+Time:Tue Dec 09 2025 12:11:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 170.02
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 591
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 92.35
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 12:11:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 12:40:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 12:40:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 182.63
+Time:Tue Dec 09 2025 12:40:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 12:40:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 12:40:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 12:40:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 12:40:23 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Tue Dec 09 2025 12:40:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 12:40:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 12:40:23 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 12:40:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 663.02
+Time:Tue Dec 09 2025 12:40:25 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 28.85
+Time:Tue Dec 09 2025 12:40:26 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 12:40:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.31
+Time:Tue Dec 09 2025 12:40:25 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 299.65
+Time:Tue Dec 09 2025 12:40:25 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 326.61
+Time:Tue Dec 09 2025 12:40:25 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.3
+Time:Tue Dec 09 2025 12:40:27 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.33
+Time:Tue Dec 09 2025 12:40:27 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Tue Dec 09 2025 12:40:27 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.82
+Time:Tue Dec 09 2025 12:40:27 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 12:40:27 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 12:40:29 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 12:40:28 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 12:40:29 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1052
+Time:Tue Dec 09 2025 12:40:29 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 12:40:28 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Tue Dec 09 2025 12:40:29 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 0
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 63.57
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 116
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 24.84
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 92.35
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 170.02
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 591
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 12:40:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 12:48:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 12:48:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 12:48:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 12:48:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 12:48:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 12:48:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 12:48:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 12:48:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 12:48:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 12:48:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 591
+Time:Tue Dec 09 2025 12:48:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1052
+Time:Tue Dec 09 2025 12:48:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 12:48:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 12:48:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 12:48:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 299.65
+Time:Tue Dec 09 2025 12:48:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Tue Dec 09 2025 12:48:55 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Tue Dec 09 2025 12:48:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 12:48:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 12:48:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 182.63
+Time:Tue Dec 09 2025 13:22:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 13:22:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 13:22:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 13:22:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 13:22:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 13:22:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 13:22:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 13:22:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 13:22:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 13:22:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 13:22:26 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.33
+Time:Tue Dec 09 2025 13:22:26 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 663.02
+Time:Tue Dec 09 2025 13:22:26 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 300.01
+Time:Tue Dec 09 2025 13:22:26 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.3
+Time:Tue Dec 09 2025 13:22:28 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 565.43
+Time:Tue Dec 09 2025 13:22:29 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 13:22:29 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.82
+Time:Tue Dec 09 2025 13:22:29 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 13:22:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 13:22:29 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 326.58
+Time:Tue Dec 09 2025 13:22:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 28.85
+Time:Tue Dec 09 2025 13:22:32 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 13:22:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Tue Dec 09 2025 13:22:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.31
+Time:Tue Dec 09 2025 13:22:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 13:22:32 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 13:22:32 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 13:22:33 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 13:22:33 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Tue Dec 09 2025 13:22:33 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1052
+Time:Tue Dec 09 2025 13:22:34 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 63.57
+Time:Tue Dec 09 2025 13:22:35 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 0
+Time:Tue Dec 09 2025 13:22:35 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 116
+Time:Tue Dec 09 2025 13:22:36 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 24.84
+Time:Tue Dec 09 2025 13:22:35 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 13:22:36 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 13:22:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 13:22:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 92.35
+Time:Tue Dec 09 2025 13:22:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 591
+Time:Tue Dec 09 2025 13:22:39 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 13:22:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 170.02
+Time:Tue Dec 09 2025 13:22:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 13:22:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 13:22:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 13:22:39 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 182.63
+Time:Tue Dec 09 2025 14:44:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 14:44:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 14:44:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 14:44:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 14:44:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 14:44:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 14:44:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 300.31
+Time:Tue Dec 09 2025 14:44:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 14:44:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 571.05
+Time:Tue Dec 09 2025 14:44:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 663.02
+Time:Tue Dec 09 2025 14:44:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.33
+Time:Tue Dec 09 2025 14:44:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.3
+Time:Tue Dec 09 2025 14:44:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 14:45:00 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.82
+Time:Tue Dec 09 2025 14:45:00 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 14:45:01 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Tue Dec 09 2025 14:45:01 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 14:45:01 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 326.8
+Time:Tue Dec 09 2025 14:45:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 28.85
+Time:Tue Dec 09 2025 14:45:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 14:45:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 14:45:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.31
+Time:Tue Dec 09 2025 14:45:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 14:45:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 14:45:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1054.69
+Time:Tue Dec 09 2025 14:45:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 14:45:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 63.57
+Time:Tue Dec 09 2025 14:45:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Tue Dec 09 2025 14:45:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 24.83
+Time:Tue Dec 09 2025 14:45:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 116.5
+Time:Tue Dec 09 2025 14:45:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 0
+Time:Tue Dec 09 2025 14:45:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 14:45:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 14:45:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 14:45:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 14:45:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 14:45:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 170.02
+Time:Tue Dec 09 2025 14:45:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 14:45:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 92.35
+Time:Tue Dec 09 2025 14:45:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 14:45:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 591
+Time:Tue Dec 09 2025 14:45:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477
+Time:Tue Dec 09 2025 15:19:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 299.15
+Time:Tue Dec 09 2025 15:19:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 663.02
+Time:Tue Dec 09 2025 15:19:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.03
+Time:Tue Dec 09 2025 15:19:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 448.88
+Time:Tue Dec 09 2025 15:19:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 182.63
+Time:Tue Dec 09 2025 15:19:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 215.13
+Time:Tue Dec 09 2025 15:19:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.4
+Time:Tue Dec 09 2025 15:19:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.3
+Time:Tue Dec 09 2025 15:19:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.91
+Time:Tue Dec 09 2025 15:19:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 229.22
+Time:Tue Dec 09 2025 15:19:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 571.05
+Time:Tue Dec 09 2025 15:19:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.44
+Time:Tue Dec 09 2025 15:19:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 223.62
+Time:Tue Dec 09 2025 15:19:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 378
+Time:Tue Dec 09 2025 15:19:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Tue Dec 09 2025 15:19:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 162.31
+Time:Tue Dec 09 2025 15:19:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 28.85
+Time:Tue Dec 09 2025 15:19:16 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 226.83
+Time:Tue Dec 09 2025 15:19:15 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 326.8
+Time:Tue Dec 09 2025 15:19:15 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 19.86
+Time:Tue Dec 09 2025 15:19:15 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.31
+Time:Tue Dec 09 2025 15:19:16 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 15:19:16 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 33.42
+Time:Tue Dec 09 2025 15:19:16 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.17
+Time:Tue Dec 09 2025 15:19:17 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 63.61
+Time:Tue Dec 09 2025 15:19:18 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 315.3
+Time:Tue Dec 09 2025 15:19:17 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1054.69
+Time:Tue Dec 09 2025 15:19:17 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 0
+Time:Tue Dec 09 2025 15:19:18 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 24.83
+Time:Tue Dec 09 2025 15:19:18 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Tue Dec 09 2025 15:19:17 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 515.3
+Time:Tue Dec 09 2025 15:19:19 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1111.49
+Time:Tue Dec 09 2025 15:19:19 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 116.5
+Time:Tue Dec 09 2025 15:19:19 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 81.09
+Time:Tue Dec 09 2025 15:19:20 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Tue Dec 09 2025 15:19:20 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Tue Dec 09 2025 15:19:20 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 92.11
+Time:Tue Dec 09 2025 15:19:21 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 170.02
+Time:Tue Dec 09 2025 15:19:21 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 137.85
+Time:Tue Dec 09 2025 15:19:21 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 591
+Time:Tue Dec 09 2025 15:19:21 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 15:19:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 184
+Time:Tue Dec 09 2025 16:16:36 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 443.85
+Time:Tue Dec 09 2025 16:16:36 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 218
+Time:Tue Dec 09 2025 16:16:36 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 488.69
+Time:Tue Dec 09 2025 16:16:36 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 227.05
+Time:Tue Dec 09 2025 16:16:36 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 276.52
+Time:Tue Dec 09 2025 16:16:36 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 313.03
+Time:Tue Dec 09 2025 16:16:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 657.71
+Time:Tue Dec 09 2025 16:16:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 182.38
+Time:Tue Dec 09 2025 16:16:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 300.21
+Time:Tue Dec 09 2025 16:16:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.44
+Time:Tue Dec 09 2025 16:16:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.19
+Time:Tue Dec 09 2025 16:16:39 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 583.06
+Time:Tue Dec 09 2025 16:16:39 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.82
+Time:Tue Dec 09 2025 16:16:39 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 385
+Time:Tue Dec 09 2025 16:16:40 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 226.54
+Time:Tue Dec 09 2025 16:16:40 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 155.4
+Time:Tue Dec 09 2025 16:16:40 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 19.81
+Time:Tue Dec 09 2025 16:16:40 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 248.7
+Time:Tue Dec 09 2025 16:16:41 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SOFI
+Bid: 27.11
+Time:Tue Dec 09 2025 16:16:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 326.36
+Time:Tue Dec 09 2025 16:16:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 138.7
+Time:Tue Dec 09 2025 16:16:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 60.51
+Time:Tue Dec 09 2025 16:16:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 316.26
+Time:Tue Dec 09 2025 16:16:43 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 34.86
+Time:Tue Dec 09 2025 16:16:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 327.55
+Time:Tue Dec 09 2025 16:16:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 98.46
+Time:Tue Dec 09 2025 16:16:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 63.19
+Time:Tue Dec 09 2025 16:16:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1070
+Time:Tue Dec 09 2025 16:16:43 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 108.02
+Time:Tue Dec 09 2025 16:16:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 120.14
+Time:Tue Dec 09 2025 16:16:45 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1112.86
+Time:Tue Dec 09 2025 16:16:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 527.94
+Time:Tue Dec 09 2025 16:16:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 24.47
+Time:Tue Dec 09 2025 16:16:45 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 54.03
+Time:Tue Dec 09 2025 16:16:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 174.5
+Time:Tue Dec 09 2025 16:16:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 82
+Time:Tue Dec 09 2025 16:16:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 138.41
+Time:Tue Dec 09 2025 16:16:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 15.53
+Time:Tue Dec 09 2025 16:16:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 91.53
+Time:Tue Dec 09 2025 16:16:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 597.24
+Time:Tue Dec 09 2025 16:16:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 16:16:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.36
+Time:Tue Dec 09 2025 16:30:21 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 184.26
+Time:Tue Dec 09 2025 16:30:19 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 488.69
+Time:Tue Dec 09 2025 16:30:19 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 300.36
+Time:Tue Dec 09 2025 16:30:21 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 585.77
+Time:Tue Dec 09 2025 16:30:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 154.95
+Time:Tue Dec 09 2025 16:30:23 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.75
+Time:Tue Dec 09 2025 16:30:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 385
+Time:Tue Dec 09 2025 16:30:23 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 226.54
+Time:Tue Dec 09 2025 16:30:23 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 138.7
+Time:Tue Dec 09 2025 16:30:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 31.96
+Time:Tue Dec 09 2025 16:30:25 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 98.01
+Time:Tue Dec 09 2025 16:30:25 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 112.36
+Time:Tue Dec 09 2025 16:30:27 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 119.94
+Time:Tue Dec 09 2025 16:30:27 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 527.39
+Time:Tue Dec 09 2025 16:30:28 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 82
+Time:Tue Dec 09 2025 16:30:28 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 174.28
+Time:Tue Dec 09 2025 16:30:29 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 595.75
+Time:Tue Dec 09 2025 16:30:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 444.44
+Time:Tue Dec 09 2025 16:31:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 314.1
+Time:Tue Dec 09 2025 16:31:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 656.72
+Time:Tue Dec 09 2025 16:31:14 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 19.69
+Time:Tue Dec 09 2025 16:31:17 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 340.55
+Time:Tue Dec 09 2025 16:31:18 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1071.26
+Time:Tue Dec 09 2025 16:31:19 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 316.67
+Time:Tue Dec 09 2025 16:31:19 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 63.27
+Time:Tue Dec 09 2025 16:31:20 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1112.86
+Time:Tue Dec 09 2025 16:31:21 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 54.04
+Time:Tue Dec 09 2025 16:31:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 15.68
+Time:Tue Dec 09 2025 16:31:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 90.6
+Time:Tue Dec 09 2025 16:31:23 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 891
+Time:Tue Dec 09 2025 16:31:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.45
+Time:Tue Dec 09 2025 16:35:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 227.73
+Time:Tue Dec 09 2025 16:35:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.48
+Time:Tue Dec 09 2025 16:35:46 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 218
+Time:Tue Dec 09 2025 16:35:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 182.23
+Time:Tue Dec 09 2025 16:35:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 249.57
+Time:Tue Dec 09 2025 16:35:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 60.6
+Time:Tue Dec 09 2025 16:35:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 24.48
+Time:Tue Dec 09 2025 16:35:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 138.41
+Time:Tue Dec 09 2025 16:35:55 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 184.7
+Time:Wed Dec 10 2025 10:23:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 221.39
+Time:Wed Dec 10 2025 10:23:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.04
+Time:Wed Dec 10 2025 10:23:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 227.78
+Time:Wed Dec 10 2025 10:23:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 444.51
+Time:Wed Dec 10 2025 10:23:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 488.69
+Time:Wed Dec 10 2025 10:23:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.43
+Time:Wed Dec 10 2025 10:23:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 181.34
+Time:Wed Dec 10 2025 10:23:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 0
+Time:Wed Dec 10 2025 10:23:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 0
+Time:Wed Dec 10 2025 10:23:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.47
+Time:Wed Dec 10 2025 10:23:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 656.58
+Time:Wed Dec 10 2025 10:23:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Wed Dec 10 2025 10:23:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 402
+Time:Wed Dec 10 2025 10:23:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 0
+Time:Wed Dec 10 2025 10:23:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Wed Dec 10 2025 10:23:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 0
+Time:Wed Dec 10 2025 10:23:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 244.8
+Time:Wed Dec 10 2025 10:23:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 226.54
+Time:Wed Dec 10 2025 10:23:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 0
+Time:Wed Dec 10 2025 10:23:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Wed Dec 10 2025 10:23:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 31.96
+Time:Wed Dec 10 2025 10:23:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 144.6
+Time:Wed Dec 10 2025 10:23:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 60.7
+Time:Wed Dec 10 2025 10:23:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 343.46
+Time:Wed Dec 10 2025 10:23:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Wed Dec 10 2025 10:23:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 0
+Time:Wed Dec 10 2025 10:23:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 24.47
+Time:Wed Dec 10 2025 10:23:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 0
+Time:Wed Dec 10 2025 10:23:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 108.02
+Time:Wed Dec 10 2025 10:23:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 0
+Time:Wed Dec 10 2025 10:23:55 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1110.88
+Time:Wed Dec 10 2025 10:23:55 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 517.28
+Time:Wed Dec 10 2025 10:23:56 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Wed Dec 10 2025 10:23:56 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Wed Dec 10 2025 10:23:56 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 159.83
+Time:Wed Dec 10 2025 10:23:57 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 82
+Time:Wed Dec 10 2025 10:23:56 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 171.84
+Time:Wed Dec 10 2025 10:23:56 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 887.93
+Time:Wed Dec 10 2025 10:23:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 0
+Time:Wed Dec 10 2025 10:23:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 0
+Time:Wed Dec 10 2025 10:23:58 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 184.7
+Time:Wed Dec 10 2025 11:36:20 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 444.51
+Time:Wed Dec 10 2025 11:36:20 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 221.39
+Time:Wed Dec 10 2025 11:36:20 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 227.78
+Time:Wed Dec 10 2025 11:36:20 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 488.69
+Time:Wed Dec 10 2025 11:36:20 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 277.04
+Time:Wed Dec 10 2025 11:36:20 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 317.43
+Time:Wed Dec 10 2025 11:36:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 656.58
+Time:Wed Dec 10 2025 11:36:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 181.34
+Time:Wed Dec 10 2025 11:36:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 0
+Time:Wed Dec 10 2025 11:36:22 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.47
+Time:Wed Dec 10 2025 11:36:23 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 402
+Time:Wed Dec 10 2025 11:36:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Wed Dec 10 2025 11:36:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.1
+Time:Wed Dec 10 2025 11:36:23 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 226.54
+Time:Wed Dec 10 2025 11:36:25 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.48
+Time:Wed Dec 10 2025 11:36:24 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 156.67
+Time:Wed Dec 10 2025 11:36:25 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 19.66
+Time:Wed Dec 10 2025 11:36:25 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 244.8
+Time:Wed Dec 10 2025 11:36:26 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 325.69
+Time:Wed Dec 10 2025 11:36:26 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 343.46
+Time:Wed Dec 10 2025 11:36:26 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 144.6
+Time:Wed Dec 10 2025 11:36:26 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 60.7
+Time:Wed Dec 10 2025 11:36:27 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Wed Dec 10 2025 11:36:28 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 31.96
+Time:Wed Dec 10 2025 11:36:27 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 300.8
+Time:Wed Dec 10 2025 11:36:29 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1068
+Time:Wed Dec 10 2025 11:36:29 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 63.56
+Time:Wed Dec 10 2025 11:36:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 108.02
+Time:Wed Dec 10 2025 11:36:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 24.47
+Time:Wed Dec 10 2025 11:36:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 118.14
+Time:Wed Dec 10 2025 11:36:30 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1110.88
+Time:Wed Dec 10 2025 11:36:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 517.28
+Time:Wed Dec 10 2025 11:36:31 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 82
+Time:Wed Dec 10 2025 11:36:32 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 159.83
+Time:Wed Dec 10 2025 11:36:32 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 53.5
+Time:Wed Dec 10 2025 11:36:32 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 0
+Time:Wed Dec 10 2025 11:36:32 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 171.63
+Time:Wed Dec 10 2025 11:36:32 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 0
+Time:Wed Dec 10 2025 11:36:33 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 591.01
+Time:Wed Dec 10 2025 11:36:33 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 887.93
+Time:Wed Dec 10 2025 11:36:34 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 184.45
+Time:Wed Dec 10 2025 15:38:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 446.29
+Time:Wed Dec 10 2025 15:38:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 228.09
+Time:Wed Dec 10 2025 15:38:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 219.83
+Time:Wed Dec 10 2025 15:38:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 478.11
+Time:Wed Dec 10 2025 15:38:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 276.02
+Time:Wed Dec 10 2025 15:38:59 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 316.27
+Time:Wed Dec 10 2025 15:39:00 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 183.98
+Time:Wed Dec 10 2025 15:39:01 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.23
+Time:Wed Dec 10 2025 15:39:01 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 648.78
+Time:Wed Dec 10 2025 15:39:01 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 305.55
+Time:Wed Dec 10 2025 15:39:01 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 588
+Time:Wed Dec 10 2025 15:39:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 403.12
+Time:Wed Dec 10 2025 15:39:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.37
+Time:Wed Dec 10 2025 15:39:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 247.04
+Time:Wed Dec 10 2025 15:39:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 158.95
+Time:Wed Dec 10 2025 15:39:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 19.74
+Time:Wed Dec 10 2025 15:39:03 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 145.66
+Time:Wed Dec 10 2025 15:39:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 241.94
+Time:Wed Dec 10 2025 15:39:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 326.6
+Time:Wed Dec 10 2025 15:39:04 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 343.66
+Time:Wed Dec 10 2025 15:39:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 58.2
+Time:Wed Dec 10 2025 15:39:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 34.5
+Time:Wed Dec 10 2025 15:39:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 99.12
+Time:Wed Dec 10 2025 15:39:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 300.61
+Time:Wed Dec 10 2025 15:39:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1063.5
+Time:Wed Dec 10 2025 15:39:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 109.25
+Time:Wed Dec 10 2025 15:39:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 24.51
+Time:Wed Dec 10 2025 15:39:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 63.41
+Time:Wed Dec 10 2025 15:39:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 118.14
+Time:Wed Dec 10 2025 15:39:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1105.99
+Time:Wed Dec 10 2025 15:39:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 510.94
+Time:Wed Dec 10 2025 15:39:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 77.99
+Time:Wed Dec 10 2025 15:39:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 53.51
+Time:Wed Dec 10 2025 15:39:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 15.97
+Time:Wed Dec 10 2025 15:39:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 159.45
+Time:Wed Dec 10 2025 15:39:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 171
+Time:Wed Dec 10 2025 15:39:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 88.65
+Time:Wed Dec 10 2025 15:39:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 595
+Time:Wed Dec 10 2025 15:39:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 887.93
+Time:Wed Dec 10 2025 15:39:12 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 39.19
+Time:Wed Dec 10 2025 15:39:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 231.67
+Time:Wed Dec 10 2025 16:25:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 263.71
+Time:Wed Dec 10 2025 16:25:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 183.87
+Time:Wed Dec 10 2025 16:25:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 219.79
+Time:Wed Dec 10 2025 16:25:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 480
+Time:Wed Dec 10 2025 16:25:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 445.63
+Time:Wed Dec 10 2025 16:25:42 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.34
+Time:Wed Dec 10 2025 16:25:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 300.36
+Time:Wed Dec 10 2025 16:25:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 651.68
+Time:Wed Dec 10 2025 16:25:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 182
+Time:Wed Dec 10 2025 16:25:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 304.87
+Time:Wed Dec 10 2025 16:25:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 39.53
+Time:Wed Dec 10 2025 16:25:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.37
+Time:Wed Dec 10 2025 16:25:46 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 596.72
+Time:Wed Dec 10 2025 16:25:46 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 398
+Time:Wed Dec 10 2025 16:25:46 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 159.46
+Time:Wed Dec 10 2025 16:25:46 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 227.51
+Time:Wed Dec 10 2025 16:25:46 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 19.85
+Time:Wed Dec 10 2025 16:25:46 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 327.23
+Time:Wed Dec 10 2025 16:25:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.35
+Time:Wed Dec 10 2025 16:25:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 241.94
+Time:Wed Dec 10 2025 16:25:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 345.8
+Time:Wed Dec 10 2025 16:25:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 300.55
+Time:Wed Dec 10 2025 16:25:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 1077.18
+Time:Wed Dec 10 2025 16:25:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 58.2
+Time:Wed Dec 10 2025 16:25:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 97.49
+Time:Wed Dec 10 2025 16:25:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 31.69
+Time:Wed Dec 10 2025 16:25:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 64.7
+Time:Wed Dec 10 2025 16:25:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 109.25
+Time:Wed Dec 10 2025 16:25:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 24.36
+Time:Wed Dec 10 2025 16:25:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 119.08
+Time:Wed Dec 10 2025 16:25:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1109.02
+Time:Wed Dec 10 2025 16:25:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 53.52
+Time:Wed Dec 10 2025 16:25:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 77.99
+Time:Wed Dec 10 2025 16:25:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 136.31
+Time:Wed Dec 10 2025 16:25:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 172.37
+Time:Wed Dec 10 2025 16:25:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 506.6
+Time:Wed Dec 10 2025 16:25:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 86.36
+Time:Wed Dec 10 2025 16:25:56 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 15.93
+Time:Wed Dec 10 2025 16:25:54 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 882.76
+Time:Wed Dec 10 2025 16:25:56 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 603
+Time:Wed Dec 10 2025 16:25:56 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSLA
+Bid: 450.82
+Time:Thu Dec 11 2025 11:27:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMD
+Bid: 221.17
+Time:Thu Dec 11 2025 11:27:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 183.65
+Time:Thu Dec 11 2025 11:27:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 231.5
+Time:Thu Dec 11 2025 11:27:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AAPL
+Bid: 278.55
+Time:Thu Dec 11 2025 11:27:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MSFT
+Bid: 477.95
+Time:Thu Dec 11 2025 11:27:02 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 320.55
+Time:Thu Dec 11 2025 11:27:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 649.31
+Time:Thu Dec 11 2025 11:27:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 303.03
+Time:Thu Dec 11 2025 11:27:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Thu Dec 11 2025 11:27:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 187.69
+Time:Thu Dec 11 2025 11:27:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.31
+Time:Thu Dec 11 2025 11:27:05 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.76
+Time:Thu Dec 11 2025 11:27:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: INTC
+Bid: 40.7
+Time:Thu Dec 11 2025 11:27:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 412.4
+Time:Thu Dec 11 2025 11:27:06 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Thu Dec 11 2025 11:27:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 263.35
+Time:Thu Dec 11 2025 11:27:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 245.68
+Time:Thu Dec 11 2025 11:27:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PEP
+Bid: 140.35
+Time:Thu Dec 11 2025 11:27:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XPEV
+Bid: 19.32
+Time:Thu Dec 11 2025 11:27:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ADBE
+Bid: 343.35
+Time:Thu Dec 11 2025 11:27:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: V
+Bid: 0
+Time:Thu Dec 11 2025 11:27:07 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SMCI
+Bid: 34.85
+Time:Thu Dec 11 2025 11:27:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 0
+Time:Thu Dec 11 2025 11:27:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Thu Dec 11 2025 11:27:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PYPL
+Bid: 61.11
+Time:Thu Dec 11 2025 11:27:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BLK
+Bid: 0
+Time:Thu Dec 11 2025 11:27:08 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 113.07
+Time:Thu Dec 11 2025 11:27:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: T
+Bid: 0
+Time:Thu Dec 11 2025 11:27:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 65.6
+Time:Thu Dec 11 2025 11:27:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 0
+Time:Thu Dec 11 2025 11:27:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1117.99
+Time:Thu Dec 11 2025 11:27:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SBUX
+Bid: 79.67
+Time:Thu Dec 11 2025 11:27:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 518.77
+Time:Thu Dec 11 2025 11:27:09 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Thu Dec 11 2025 11:27:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AI
+Bid: 15.45
+Time:Thu Dec 11 2025 11:27:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SHOP
+Bid: 168.11
+Time:Thu Dec 11 2025 11:27:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 0
+Time:Thu Dec 11 2025 11:27:10 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 83.8
+Time:Thu Dec 11 2025 11:27:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 610.69
+Time:Thu Dec 11 2025 11:27:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: COST
+Bid: 882.76
+Time:Thu Dec 11 2025 11:27:11 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NVDA
+Bid: 183.65
+Time:Thu Dec 11 2025 11:34:44 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: META
+Bid: 649.31
+Time:Thu Dec 11 2025 11:34:45 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: SPOT
+Bid: 0
+Time:Thu Dec 11 2025 11:34:46 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: KO
+Bid: 70.31
+Time:Thu Dec 11 2025 11:34:46 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PFE
+Bid: 25.76
+Time:Thu Dec 11 2025 11:34:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AVGO
+Bid: 412.4
+Time:Thu Dec 11 2025 11:34:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TTWO
+Bid: 245.68
+Time:Thu Dec 11 2025 11:34:47 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: MU
+Bid: 263.35
+Time:Thu Dec 11 2025 11:34:48 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: JPM
+Bid: 308.8
+Time:Thu Dec 11 2025 11:34:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RBLX
+Bid: 0
+Time:Thu Dec 11 2025 11:34:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: NKE
+Bid: 65.6
+Time:Thu Dec 11 2025 11:34:49 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: WMT
+Bid: 113.07
+Time:Thu Dec 11 2025 11:34:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: ASML
+Bid: 1117.99
+Time:Thu Dec 11 2025 11:34:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: XOM
+Bid: 0
+Time:Thu Dec 11 2025 11:34:50 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CRWD
+Bid: 518.77
+Time:Thu Dec 11 2025 11:34:51 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: RTX
+Bid: 0
+Time:Thu Dec 11 2025 11:34:52 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: UBER
+Bid: 83.8
+Time:Thu Dec 11 2025 11:34:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: CAT
+Bid: 610.69
+Time:Thu Dec 11 2025 11:34:53 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: AMZN
+Bid: 231.5
+Time:Thu Dec 11 2025 11:35:37 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: GOOG
+Bid: 320.55
+Time:Thu Dec 11 2025 11:35:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: PLTR
+Bid: 187.69
+Time:Thu Dec 11 2025 11:35:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: TSM
+Bid: 303.03
+Time:Thu Dec 11 2025 11:35:38 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BABA
+Bid: 0
+Time:Thu Dec 11 2025 11:35:40 GMT+0100 (Central European Standard Time)
+
+Call qoute on yfinance: BAC
+Bid: 0
+Time:Thu Dec 11 2025 11:35:44 GMT+0100 (Central European Standard Time)
+

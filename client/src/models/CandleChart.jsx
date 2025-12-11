@@ -109,61 +109,22 @@ function CandleChart({ priceData , tickerSymbol}) {
 
     const [shortTermData, setShortTermData] = useState([]);
     const [signals, setSignals] = useState([]);
+    const [customPairs, setSmaPairs] = useState([]);
 
-    const customPairs = [
-        ["NVDA", 92, 46],
-        ["TSLA", 20, 54],
-        ["AAPL", 105, 97],
-        ["MSFT", 88, 77],
-        ["AMZN", 62, 20],
-        ["AMD", 28, 19],
-        ["GOOG", 92, 106],
-        ["PLTR", 79, 32],
-        ["META", 53, 29],
-        ["TSM", 102, 94],
-        ["KLAR", 99, 44],
-        ["KO", 27, 16],
-        /* ["GME", 10, 38], */
-        ["INTC", 71, 95],
-        ["SPOT", 59, 38],
-        ["AMC", 50, 34],
-        ["PFE", 21, 26],
-        ["AVGO", 102, 54],
-        ["TTWO", 93, 44],
-        ["BABA", 41, 86],
-        ["XPEV", 20, 11],
-        ["MU", 27, 95],
-        ["V", 31, 13],
-        ["PEP", 21, 29],
-        ["SOFI", 33, 28],
-        ["BYND", 15, 24],
-        ["ADBE", 93, 65],
-        ["SMCI", 17, 22],
-        ["PYPL", 59, 53],
-        ["RBLX", 23, 14],
-        ["JPM", 61, 28],
-        ["BLK", 16, 25],
-        ["NKE", 16, 24],
-        ["LCID", 16, 80],
-        ["WMT", 35, 42],
-        ["T", 25, 103],
-        ["MARA", 55, 69],
-        ["XOM", 78, 73],
-        ["ASML", 16, 44],
-        /* ["SONY", 28, 16], */
-        ["CRWD", 27, 15],
-        ["SBUX", 87, 74],
-        ["ABCL", 45, 62],
-        ["CVX", 45, 31],
-        ["BAC", 19, 63],
-        ["GS", 100, 92],
-        ["AI", 16, 24],
-        ["RTX", 34, 44],
-        ["SHOP", 96, 90],
-        ["UBER", 32, 23],
-        ["CAT", 46, 66],
-        ["COST", 26, 18],
-    ];
+    useEffect(() => {
+        async function fetchPairs() {
+            try {
+                const res = await fetch("http://localhost:3006/api/ticker/get/sma/pair/");
+                
+                const data = await res.json();
+                setSmaPairs(data);
+            } catch (err) {
+                console.error(err);
+            }
+        }
+        fetchPairs();
+    }, []);
+
 
     function chartSignals(priceData) {
         const subset = priceData.slice(-155);
@@ -225,10 +186,10 @@ function CandleChart({ priceData , tickerSymbol}) {
     }
 
     useEffect(() => {
-        if (priceData.length > 0) {
+        if (priceData.length > 0 && customPairs.length > 0) {
             chartSignals(priceData);
         }
-    }, [priceData]);
+    }, [priceData, customPairs]);
 
 
     return (

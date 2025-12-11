@@ -87,7 +87,7 @@ twelvedata API. Populate empty document with 100 days of 30 min data.
 Return prices.
 */
 async function populateNewPrices (tickerDoc, ticker) {
-	const startDate = startDateDays(200);
+	const startDate = startDateDays(500);
 
 	const getPriceData = await getTwelveData(ticker, timeframe, startDate, key);
 

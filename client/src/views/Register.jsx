@@ -2,7 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import Wrapper from '../assets/wrappers/Form';
 import FormRow from '../models/FormRow';
 import { useState } from "react";
-const api_url="http://localhost:3005"
+const api_url="http://localhost:3006"
 
 function Register() {
 

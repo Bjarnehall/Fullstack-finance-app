@@ -14,7 +14,6 @@ def get_available_tickers():
     response = requests.get(f"{API_URL}/available", timeout=10)
     return response.json()
 
-
 def get_thirtymin_ticker(url, ticker):
     response = requests.get(url, timeout=10)
     data = response.json()

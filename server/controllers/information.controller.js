@@ -1,5 +1,5 @@
 const { getInformation } = require("../models/information.model.js");
-const { validateTicker, listAllTickers } = require("../helpers/checks.helper.js");
+const { validateTicker, listAllTickers, listSmaPair } = require("../helpers/checks.helper.js");
 
 /*
 Return meta data about single ticker
@@ -27,7 +27,16 @@ const getAvailableTickers = (req, res) => {
     res.status(200).json(tickers);
 }
 
+/*
+Return Sma crossing pair per ticker
+*/
+const getSmaPairs = (req, res) => {
+    const tickers = listSmaPair();
+    res.status(200).json(tickers);
+}
+
 module.exports = {
     getMetaDataTicker,
-    getAvailableTickers
+    getAvailableTickers,
+    getSmaPairs
 };

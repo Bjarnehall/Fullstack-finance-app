@@ -23,7 +23,13 @@ function listAllTickers () {
     return availableTickers;
 }
 
+function listSmaPair () {
+    const { smaPairs } = require("../variables/smaPairs.js");
+    return smaPairs;
+}
+
 module.exports = {
     validateTicker,
-    listAllTickers
+    listAllTickers,
+    listSmaPair
 };

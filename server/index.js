@@ -8,7 +8,7 @@ const { MONGOKEY } = require('../keys.js');
 const userRoute = require('./routes/users.route.js');
 const tickerRoute = require('./routes/ticker.route.js');
 const app = express();
-const port = 3005;
+const port = 3006;
 
 /*
 Middleware.
@@ -20,7 +20,7 @@ app.use(express.json());
 // server as an API.
 app.use(
     cors({
-        origin: 'http://localhost:5174',
+        origin: 'http://localhost:5173',
         credentials: true,
     })
 );

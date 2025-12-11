@@ -33,7 +33,7 @@ function AllTickers() {
 
         lastFetch.current = now;
   
-        fetch("http://localhost:3005/api/ticker/get/available")
+        fetch("http://localhost:3006/api/ticker/get/available")
             .then(res => res.json())
             .then(data => setTickers(data));
     }

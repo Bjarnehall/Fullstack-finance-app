@@ -7,7 +7,7 @@ Post client stored jwt token and check if valid
 Returns valid = true/false
 */
 async function isTokenValid(token) {
-    const response = await fetch('http://localhost:3005/api/users/validate', {
+    const response = await fetch('http://localhost:3006/api/users/validate', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

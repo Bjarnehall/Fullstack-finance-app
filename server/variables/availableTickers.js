@@ -21,7 +21,6 @@ const availableTickers = [
   "MU",        // MICRON TECHNOLOGY
   "V",         // VISA
   "PEP",       // PEPSICO
-  "SOFI",      // SOFI TECHNOLOGIES
   "ADBE",      // ADOBE
   "SMCI",      // SUPER MICRO COMPUTER
   "PYPL",      // PAYPAL

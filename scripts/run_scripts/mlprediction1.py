@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 import matplotlib.dates as mdates
-API_URL = "http://localhost:3005/api/ticker"
+API_URL = "http://localhost:3006/api/ticker"
 
 def predict_future_closes(df, n=7):
     if df.empty:
@@ -118,13 +118,13 @@ while True:
         df['datetime'] = pd.to_datetime(df['datetime'])
         df = df.sort_values('datetime')
 
-        future_preds = predict_future_closes(df, n=6)
+        future_preds = predict_future_closes(df, n=7)
         df_hist = df.tail(min(30, len(df)))
 
         save_chart_to_api(ticker, df_hist, future_preds)
 
 
-        time.sleep(random.randint(120, 500))
+        time.sleep(random.randint(120, 300))
 
     print("Completed one full pass of all tickers. Sleeping before next pass...")
-    time.sleep(random.randint(1100, 2400))
+    time.sleep(random.randint(1100, 2100))

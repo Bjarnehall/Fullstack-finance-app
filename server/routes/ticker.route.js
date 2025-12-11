@@ -1,12 +1,17 @@
 const express = require('express');
 const router = express.Router();
-const { getMetaDataTicker, getAvailableTickers } = require("../controllers/information.controller.js");
+const { getMetaDataTicker, getAvailableTickers, getSmaPairs } = require("../controllers/information.controller.js");
 const { getThirtyMinPrices, savePriceChart, getFullChart, saveMlChart, getMlChart } = require("../controllers/price.controller.js");
 
 /*
 Return all available tickers.
 */
 router.get("/get/available/", getAvailableTickers);
+/*
+/*
+Return best SMA crossings pair
+*/
+router.get("/get/sma/pair/", getSmaPairs);
 /*
 Return meta-data about a single ticker.
 */

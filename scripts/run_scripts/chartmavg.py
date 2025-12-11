@@ -8,62 +8,15 @@ import pandas as pd
 import numpy as np
 
 # DENNNA ÄR RÄTT
-API_URL = "http://localhost:3005/api/ticker"
+API_URL = "http://localhost:3006/api/ticker"
 
-pairs = [
-        ["NVDA", 92, 46],
-        ["TSLA", 20, 54],
-        ["AAPL", 105, 97],
-        ["MSFT", 88, 77],
-        ["AMZN", 62, 20],
-        ["AMD", 28, 19],
-        ["GOOG", 92, 106],
-        ["PLTR", 79, 32],
-        ["META", 53, 29],
-        ["TSM", 102, 94],
-        ["KO", 27, 16],
-        ["INTC", 71, 95],
-        ["SPOT", 59, 38],
-        ["AMC", 50, 34],
-        ["PFE", 21, 26],
-        ["AVGO", 102, 54],
-        ["TTWO", 93, 44],
-        ["BABA", 41, 86],
-        ["XPEV", 20, 11],
-        ["MU", 27, 95],
-        ["V", 31, 13],
-        ["PEP", 21, 29],
-        ["SOFI", 33, 28],
-        ["BYND", 15, 24],
-        ["ADBE", 93, 65],
-        ["SMCI", 17, 22],
-        ["PYPL", 59, 53],
-        ["RBLX", 23, 14],
-        ["JPM", 61, 28],
-        ["BLK", 16, 25],
-        ["NKE", 16, 24],
-        ["LCID", 16, 80],
-        ["WMT", 35, 42],
-        ["T", 25, 103],
-        ["MARA", 55, 69],
-        ["XOM", 78, 73],
-        ["ASML", 16, 44],
-        ["CRWD", 27, 15],
-        ["SBUX", 87, 74],
-        ["ABCL", 45, 62],
-        ["CVX", 45, 31],
-        ["BAC", 19, 63],
-        ["GS", 100, 92],
-        ["AI", 16, 24],
-        ["RTX", 34, 44],
-        ["SHOP", 96, 90],
-        ["UBER", 32, 23],
-        ["CAT", 46, 66],
-        ["COST", 26, 18],
-    ]
 
 def get_available_tickers():
     response = requests.get(f"{API_URL}/get/available")
+    return response.json()
+
+def get_smaPairs():
+    response = requests.get(f"{API_URL}/get/sma/pair", timeout=10)
     return response.json()
 
 def get_thirtymin_ticker(url, ticker):
@@ -80,6 +33,7 @@ def get_mavg_pair(ticker):
             return mavg1, mavg2
 
 tickers = get_available_tickers()
+pairs = get_smaPairs()
 
 
 while True:
@@ -132,6 +86,6 @@ while True:
         response = requests.post(f"{API_URL}/save/pricechart/{ticker}", json=payload)
 
         print(response.json())
-        time.sleep(random.randint(100, 390))
+        time.sleep(random.randint(80, 180))
         
-    time.sleep(random.randint(1200, 3100))
+    time.sleep(random.randint(1200, 2000))

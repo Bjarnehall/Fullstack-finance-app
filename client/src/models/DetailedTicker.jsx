@@ -24,7 +24,7 @@ function DetailedTicker({ ticker }) {
         lastFetch.current = now;
         
         try {
-            const response = await fetch (`http://localhost:3005/api/ticker/get/thirtymin/${ticker}`);
+            const response = await fetch (`http://localhost:3006/api/ticker/get/thirtymin/${ticker}`);
             const priceData = await response.json();
             setPriceData(priceData);
 
@@ -37,14 +37,14 @@ function DetailedTicker({ ticker }) {
     async function fetchChart() {
         if (!ticker) return;
 
-        const url = `http://localhost:3005/api/ticker/get/fullchart/${ticker}`;
+        const url = `http://localhost:3006/api/ticker/get/fullchart/${ticker}`;
         setChartUrl(url)
     }
 
     async function fetchMlChart() {
         if (!ticker) return;
 
-        const url = `http://localhost:3005/api/ticker/get/mlchart/${ticker}`;
+        const url = `http://localhost:3006/api/ticker/get/mlchart/${ticker}`;
         setMlChartUrl(url)
     }
 
